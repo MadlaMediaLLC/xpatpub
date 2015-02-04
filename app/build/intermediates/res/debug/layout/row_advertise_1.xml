@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="#000000" >
+
+        <ImageView
+            android:id="@+id/pub_owner_icon_imageView"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/no_image" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="90dp"
+            android:background="@drawable/round_rect_shape3" >
+
+            <TextView
+                android:id="@+id/row_name_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:text="BIG BAND NIGHT"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffb800"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/row_desc_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/row_name_textView"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:text="Sport Bar"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/change_pub_owner_icon_button"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_activity_half"
+                android:background="@drawable/inset_round_rect_shape4_button"
+                android:text="SEE"
+                android:textColor="#ffb800"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/row_advertise_1.xml -->

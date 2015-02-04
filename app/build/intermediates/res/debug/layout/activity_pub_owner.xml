@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feature_back" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#61000000" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" >
+
+            <Button
+                android:id="@+id/pub_patron_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_activity_half"
+                android:background="#00000000"
+                android:padding="@dimen/padding_activity_half"
+                android:text="&lt;"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/pub_info_pub_name_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="PUB SETTINGS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f4c423"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bLogout"
+                android:layout_width="@dimen/height_width_action_button"
+                android:layout_height="@dimen/height_width_action_button"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_activity_half"
+                android:background="@drawable/inset_logout_button" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="false"
+        android:background="#61000000" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_rect_shape1" >
+
+        <ImageView
+            android:id="@+id/my_profile_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="2dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/deal1" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/myname_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/RelativeLayout01"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/RelativeLayout01"
+        android:text="HI JAMIEI"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffc600"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RelativeLayout01"
+        android:layout_marginTop="20dp"
+        android:background="#ffc700"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#000000" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="90dp"
+                android:background="@drawable/round_rect_shape3" >
+
+                <TextView
+                    android:id="@+id/row_name_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:text="NAME OF PUB"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffb800"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/row_desc_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/row_name_textView"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="2dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/change_pub_owner_icon_button"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/round_rect_shape4"
+                    android:text="CHANGE ICON"
+                    android:textColor="#ffb800"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/pub_owner_icon_imageView"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/no_image" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/pub_owner_search_patrons_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_rect_shape2"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="SEARCH PATRONS"
+        android:textSize="15sp" />
+
+</RelativeLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/activity_pub_owner.xml -->

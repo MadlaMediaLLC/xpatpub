@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp" >
+
+            <RelativeLayout
+                android:id="@+id/vibe_menu_button_relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/vibe_menu_relativeLayout"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/general_button_back" >
+
+                    <ImageView
+                        android:id="@+id/vibe_menu_imageView"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/menu_button_vibe_icon" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/vibe_menu_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/vibe_menu_relativeLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="VIBE"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@drawable/menu_button_textcolor"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/vibe_menu_sel_mark_imageView"
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/vibe_menu_textView"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/menu_button_mark_icon" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="90" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/tunes_menu_button_relativeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:id="@+id/tunes_menu_relativeLayout"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/general_button_back" >
+
+                            <ImageView
+                                android:id="@+id/tunes_menu_imageView"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/menu_button_tunes_icon" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/tunes_menu_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tunes_menu_relativeLayout"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:text="TUNES"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@drawable/menu_button_textcolor"
+                            android:textSize="11sp" />
+
+                        <ImageView
+                            android:id="@+id/tunes_menu_sel_mark_imageView"
+                            android:layout_width="20dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/menu_button_mark_icon" />
+                    </RelativeLayout>
+                    
+                    <RelativeLayout
+                        android:id="@+id/tunes_menu_for_review_button_relativeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:id="@+id/tunes_menu_for_review_relativeLayout"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/general_button_back" >
+
+                            <ImageView
+                                android:id="@+id/tunes_menu_for_review_imageView"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/menu_button_tunes_icon" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/tunes_menu_for_review_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tunes_menu_for_review_relativeLayout"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:text="TUNES"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@drawable/menu_button_textcolor"
+                            android:textSize="11sp" />
+
+                        <ImageView
+                            android:id="@+id/tunes_menu_for_review_sel_mark_imageView"
+                            android:layout_width="20dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/menu_button_mark_icon" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/action_menu_button_relativeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:id="@+id/action_menu_relativeLayout"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/general_button_back" >
+
+                            <ImageView
+                                android:id="@+id/action_menu_imageView"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/menu_button_action_icon" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/action_menu_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/action_menu_relativeLayout"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:text="ACTION"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@drawable/menu_button_textcolor"
+                            android:textSize="11sp" />
+
+                        <ImageView
+                            android:id="@+id/action_menu_sel_mark_imageView"
+                            android:layout_width="20dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/menu_button_mark_icon" />
+                    </RelativeLayout>
+                    
+                    <RelativeLayout
+                        android:id="@+id/food_menu_button_relativeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:id="@+id/food_menu_relativeLayout"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/general_button_back" >
+
+                            <ImageView
+                                android:id="@+id/food_menu_imageView"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/menu_button_food_icon" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/food_menu_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/food_menu_relativeLayout"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:text="FOOD"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@drawable/menu_button_textcolor"
+                            android:textSize="11sp" />
+
+                        <ImageView
+                            android:id="@+id/food_menu_sel_mark_imageView"
+                            android:layout_width="20dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/menu_button_mark_icon" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/ales_menu_button_relativeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/ales_menu_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ales_menu_relativeLayout"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:text="ALES ON TAP"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@drawable/menu_button_textcolor"
+                            android:textSize="11sp" />
+
+                        <RelativeLayout
+                            android:id="@+id/ales_menu_relativeLayout"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/general_button_back" >
+
+                            <ImageView
+                                android:id="@+id/ales_menu_imageView"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/menu_button_ales_icon" />
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/ales_menu_sel_mark_imageView"
+                            android:layout_width="20dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/menu_button_mark_icon" />
+                    </RelativeLayout>
+                    
+                    <RelativeLayout
+                        android:id="@+id/ales_menu_for_review_button_relativeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/ales_menu_for_review_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ales_menu_for_review_relativeLayout"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:text="ALES"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@drawable/menu_button_textcolor"
+                            android:textSize="11sp" />
+
+                        <RelativeLayout
+                            android:id="@+id/ales_menu_for_review_relativeLayout"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/general_button_back" >
+
+                            <ImageView
+                                android:id="@+id/ales_menu_for_review_imageView"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/menu_button_ales_icon" />
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/ales_menu_for_review_sel_mark_imageView"
+                            android:layout_width="20dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/menu_button_mark_icon" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/menu_view_relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayout1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/vibe_menubar_relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tunes_menubar_relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical" >
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/tunes_menubar_for_review_relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/action_menubar_relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical" >
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/food_menubar_relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ales_menubar_relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical" >
+            </RelativeLayout>
+            <RelativeLayout
+                
+                android:id="@+id/ales_menubar_for_review_relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical" >
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/view_choose_pub_feature.xml -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_activity"
+        android:orientation="vertical"
+        android:background="@android:color/darker_gray"
+        android:padding="@dimen/padding_activity" >
+
+        <TextView
+            style="@style/mTextYellowMedium"
+            android:text="@string/dialog_title_connection_failed" />
+
+        <TextView
+            style="@style/mTextWhite"
+            android:paddingBottom="@dimen/padding_activity_half"
+            android:text="@string/dialog_msg_connection_failed_dialog" />
+
+        <CheckBox
+            android:id="@+id/cbDialogConnectionFailedDontShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_activity_half"
+            android:checked="false"
+            android:text="@string/dialog_btn_dont_show_dialog_anymore" />
+
+        <Button
+            android:id="@+id/bTurnONDataTransfer"
+            style="@style/mButton"
+            android:text="@string/dialog_btn_turn_data_transfer_on" />
+
+        <Button
+            android:id="@+id/bConfigureSettings"
+            style="@style/mButton"
+            android:text="@string/dialog_btn_configure_settings" />
+
+        <Button
+            android:id="@+id/bCancelConFailedDialog"
+            style="@style/mButton"
+            android:text="@string/dialog_btn_cancel" />
+    </LinearLayout>
+
+</ScrollView>

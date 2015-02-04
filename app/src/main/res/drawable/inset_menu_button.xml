@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/menu_button"
+    android:insetTop="@dimen/padding_activity_half"
+    android:insetBottom="@dimen/padding_activity_half"
+    android:insetLeft="@dimen/padding_activity_half"
+    android:insetRight="@dimen/padding_activity_half" />

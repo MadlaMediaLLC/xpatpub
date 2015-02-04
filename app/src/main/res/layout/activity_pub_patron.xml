@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feature_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#61000000" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" >
+
+            <Button
+                android:id="@+id/pub_patron_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_activity_half"
+                android:background="#00000000"
+                android:padding="@dimen/padding_activity_half"
+                android:text="&lt;"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/pub_info_pub_name_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="PUB PATRON"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f4c423"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bLogout"
+                android:layout_width="@dimen/height_width_action_button"
+                android:layout_height="@dimen/height_width_action_button"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_activity_half"
+                android:background="@drawable/inset_logout_button" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#61000000" >
+        
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/general_button_back"
+            android:text="Upgrade Account to Pub Owner"
+            android:textColor="@drawable/general_button_textcolor"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_rect_shape1" >
+
+        <ImageView
+            android:id="@+id/my_profile_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="2dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/deal1" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/myname_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/RelativeLayout01"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/RelativeLayout01"
+        android:text="HI JAMIEI"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffc600"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/privacy_settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/RelativeLayout01"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/round_rect_shape2"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="Privacy Settings"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RelativeLayout01"
+        android:layout_alignRight="@+id/privacy_settings_button"
+        android:layout_below="@+id/RelativeLayout01"
+        android:layout_marginTop="34dp" >
+
+        <TextView
+            android:id="@+id/bars_founded_count_textView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/circle_shape1"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Bars Founded"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#f4c423" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout3"
+        android:layout_alignRight="@+id/relativeLayout3"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_marginTop="30dp" >
+
+        <Button
+            android:id="@+id/pub_owner_search_patrons_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/round_rect_shape2"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Inbox"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/inbox_count_textView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/circle_shape1"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/privacy_setting_menubar_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/privacy_settings_button"
+        android:layout_alignRight="@+id/relativeLayout3"
+        android:layout_below="@+id/myname_textView"
+        android:layout_weight="50"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/stealth_menuitem_relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/general_menuitem3_middle_back" >
+
+            <TextView
+                android:id="@+id/western_menuitem_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Stealth"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@drawable/general_menuitem_textcolor"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/western_menuitem_radio_imageView"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/menuitem_radio_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/anonymous_menuitem_relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/general_menuitem3_middle_back" >
+
+            <TextView
+                android:id="@+id/sport_menuitem_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Anonymous"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@drawable/general_menuitem_textcolor"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/sport_menuitem_radio_imageView"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/menuitem_radio_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/public_menuitem_relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/general_menuitem3_middle_back" >
+
+            <TextView
+                android:id="@+id/irish_menuitem_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Public"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@drawable/general_menuitem_textcolor"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/irish_menuitem_radio_imageView"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/menuitem_radio_icon" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

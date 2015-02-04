@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <color name="general_button_text_default_color">@android:color/white</color>
+    <color name="general_button_text_pressed_color">@android:color/black</color>
+    <color name="general_button_text_selected_color">@color/green</color>
+    <color name="general_button_text_focused_color">@color/blue</color>
+    <color name="general_button_text_hovered_color">@color/blue</color>
+    
+    <color name="general_button_stroke_default_color">@android:color/white</color>
+    <color name="general_button_back_default_color">#00000000</color>
+    <color name="general_button_back_pressed_color">@color/gold</color>
+    
+    <color name="general_menuitem_text_default_color">@android:color/black</color>
+    <color name="general_menuitem_text_pressed_color">@color/yellow</color>
+    
+    <color name="general_menuitem1_back_default_color">@color/yellow</color>
+    <color name="general_menuitem2_back_default_color">@color/yellow_pale</color>
+    <color name="general_menuitem3_back_default_color">@color/green_pale_transparent</color>
+    
+    <color name="general_menuitem_back_pressed_color">@android:color/black</color>
+    
+    <color name="menu_button_text_default_color">@android:color/white</color>    
+    <color name="menu_button_text_pressed_color">@color/yellow</color>
+    
+    <color name="tab_color_general">@color/gray</color>
+    <color name="tab_color_selected">@color/blue</color>
+    
+    
+    <color name="black_transparent">#61000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="gold">#f5c00b</color>
+    <color name="gray">#333333</color>    
+    <color name="green">#00ff00</color>
+    <color name="green_pale_transparent">#e1feb902</color>
+    <color name="yellow">#fcc300</color>
+    <color name="yellow_pale">#fdcb1f</color>
+    <color name="yellow_true">#ffb900</color>   
+    
+</resources>

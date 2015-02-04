@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/general_menuitem1_top_back"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/less_four_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/LinearLayout2"
+        android:background="@drawable/general_menuitem1_middle_back" >
+
+        <ImageView
+            android:id="@+id/ales_sel_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/menuitem_four_ten_icon" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/ales_sel_imageView"
+            android:text="Generic"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@drawable/general_menuitem_textcolor"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ImageView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/menuitem_radio_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/four_ten_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/less_four_relativeLayout"
+        android:background="@drawable/general_menuitem2_middle_back" >
+
+        <ImageView
+            android:id="@+id/tunes_sel_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/menuitem_four_ten_icon" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/tunes_sel_imageView"
+            android:text="Local Craft"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@drawable/general_menuitem_textcolor"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ImageView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/menuitem_radio_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/more_ten_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/four_ten_relativeLayout"
+        android:background="@drawable/general_menuitem1_middle_back" >
+
+        <ImageView
+            android:id="@+id/shuffleboard_sel_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/menuitem_more_ten_icon" />
+
+        <TextView
+            android:id="@+id/inbox_count_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/shuffleboard_sel_imageView"
+            android:text="Import Craft"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@drawable/general_menuitem_textcolor"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/menuitem_radio_icon" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/more_ten_relativeLayout"
+        android:background="@drawable/general_menuitem1_bottom_back"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/menu_ales_for_review.xml -->

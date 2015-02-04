@@ -1,0 +1,88 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices. -->
+    <!-- <style name="AppBaseTheme" parent="android:Theme.Light"> -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="MyAppTheme" parent="@android:style/Theme.Black.NoTitleBar"></style>
+    <!-- <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar"></style> -->
+
+    <style name="mButton" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_activity</item>
+    </style>
+
+    <style name="mButtonWhite" parent="@style/mButton"></style>
+
+    <style name="mButtonYellow" parent="@style/mButton">
+        <item name="android:background">@drawable/round_rect_shape4</item>
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
+    <style name="mActionBarFakeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_fake_action_bar</item>
+        <item name="android:background">@color/black_transparent</item>
+    </style>
+
+    <style name="mText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="mTextYellow" parent="@style/mText">
+        <item name="android:textColor">@color/yellow</item>
+    </style>
+
+    <style name="mTextWhite" parent="@style/mText">
+        <item name="android:textColor">@drawable/menu_button_textcolor</item>
+    </style>
+
+    <style name="mTextVotePercentage" parent="@style/mText">
+        <item name="android:layout_margin">@dimen/padding_activity_half</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
+    <style name="mTextWhiteSmall" parent="@style/mTextWhite">
+        <item name="android:textColor">@drawable/menu_button_textcolor</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="mTextYellowMedium" parent="@style/mTextYellow">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="mTextYellowSmall" parent="@style/mTextYellow">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="mGoldenArrowDown">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/golden_arrow_down</item>
+        <item name="android:layout_marginRight">@dimen/padding_activity_half</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="mTextPercentageInPubInfo" parent="@style/mTextYellowMedium">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/padding_activity_half</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+</resources>

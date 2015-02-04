@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feature_back"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        style="@style/mActionBarFakeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" >
+
+            <Button
+                android:id="@+id/pub_patron_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_activity_half"
+                android:padding="@dimen/padding_activity_half"
+                android:background="#00000000"
+                android:text="&lt;"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/pub_info_pub_name_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="PUB OFFER"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f4c423"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#61000000" >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_rect_shape1" >
+
+        <ImageView
+            android:id="@+id/my_profile_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="2dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/deal1" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/myname_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/RelativeLayout01"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/RelativeLayout01"
+        android:text="HI JAMIEI"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffc600"
+        android:textSize="15sp" />
+
+    <ListView
+        android:id="@+id/user_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RelativeLayout01"
+        android:layout_marginTop="20dp"
+        android:background="#ffc700"
+        android:paddingBottom="1dp" >
+
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feature_back"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#61000000" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp" >
+
+            <TextView
+                android:id="@+id/pub_info_pub_name_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="PLACED AROUND YOU"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f4c423"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/search_home_button"
+                android:layout_width="@dimen/height_width_action_button"
+                android:layout_height="@dimen/height_width_action_button"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/inset_home_button" />
+            
+            <Button
+                android:id="@+id/search_refresh_button"
+                android:layout_width="@dimen/height_width_action_button"
+                android:layout_height="@dimen/height_width_action_button"
+                android:layout_toLeftOf="@+id/search_add_pub_button"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/inset_refresh_button" />
+
+            <Button
+                android:id="@+id/search_add_pub_button"
+                android:layout_width="@dimen/height_width_action_button"
+                android:layout_height="@dimen/height_width_action_button"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_activity_half"
+                android:background="@drawable/inset_add_pub_button" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <ListView
+        android:id="@+id/pubs_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffc700"
+        android:paddingBottom="1dp" >
+    </ListView>
+
+</LinearLayout>

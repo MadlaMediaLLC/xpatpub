@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_activity"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_activity" >
+
+        <TextView
+            style="@style/mTextYellowMedium"
+            android:text="@string/dialog_title_0_0_location" />
+
+        <TextView
+            style="@style/mTextWhite"
+            android:text="@string/dialog_msg_0_0_location" />
+
+        <AutoCompleteTextView
+            android:id="@+id/actvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_activity_half"
+            android:focusable="true"
+            android:hint="Address"
+            android:imeOptions="actionDone"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:minLines="1" />
+
+        <CheckBox
+            android:id="@+id/cbDontShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/dialog_btn_dont_show_dialog_anymore_session" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/padding_activity_half" >
+
+            <Button
+                android:id="@+id/bSet"
+                style="@style/mButton"
+                android:layout_weight="1"
+                android:text="@string/dialog_btn_set" />
+
+            <Button
+                android:id="@+id/bCancel"
+                style="@style/mButton"
+                android:layout_weight="1"
+                android:text="@string/dialog_btn_cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/dialog_0_0_location.xml -->

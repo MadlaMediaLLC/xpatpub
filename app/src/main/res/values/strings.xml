@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Xpatpub</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="app_id" translatable="false">297663030416530</string>
+    <string name="latitude_longitude" translatable="false">%1$.8f, %2$.8f</string>
+    <string name="google_map_api_key">AIzaSyCZGBRBDJwYwjB-o8SSCzU36OvrJgXlIdw</string>
+    <string name="google_map_api_key_autocomplete">AIzaSyDKmetCHYyMCrHJAM1oUTwFLs-hJ4li65E</string>
+    <string name="service_name">SyncService</string>
+    <string name="action_games_on_tv">Games on Tv</string>
+    <string name="action_darts">Darts</string>
+    <string name="action_pool">Pool</string>
+    <string name="action_quiz_nights">Quiz Nights</string>
+    <string name="action_shufflebouard">Shufflebouard</string>
+    <string name="ales_on_tap_feature_less_than_four">Less than 4</string>
+    <string name="ales_on_tap_feature_four_to_ten">4 - 10</string>
+    <string name="ales_on_tap_feature_more_than_ten">More than 10</string>
+    <string name="ales_on_tap_rating_generic">Generic</string>
+    <string name="ales_on_tap_rating_local_craft">Local Craft</string>
+    <string name="ales_on_tap_rating_import_craft">Import Craft</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="dialog_btn_configure_settings">Internet Settings</string>
+    <string name="dialog_btn_dont_show_dialog_anymore">Don\'t show in the future!</string>
+    <string name="dialog_btn_dont_show_dialog_anymore_session">Don\'t show in this session!</string>
+    <string name="dialog_btn_set">Set</string> 
+    <string name="dialog_btn_turn_data_transfer_on">Enable data transfer</string>
+    <string name="dialog_logout_message">You are going to logout from your account and exit the app!</string>
+    <string name="dialog_logout_title">Logout?</string>
+    <string name="dialog_logout_cancel">Cancel</string>
+    <string name="dialog_logout_logout">Logout</string>
+    <string name="dialog_msg_connection_failed_dialog">Internet connection failed.\nEnabling internet connection will give you full experience of Xpatpub.</string>
+    <string name="dialog_msg_dialog_location_over_network">Locating over network gives you complete Xpatpub experience - searching nearby pubs, using coupons, giving feedback, etc.</string>    
+    <string name="dialog_msg_gps_dialog">Would you like to setup GPS settings?</string>
+    <string name="dialog_msg_0_0_location">For some reason we couldn\'t locate you. Please, type in your address or city for better drinking experience.</string>
+    <string name="dialog_title_connection_failed">Enable internet access?</string>
+    <string name="dialog_title_dialog_sms_order">Send sms message?</string>
+    <string name="dialog_title_dialog_location_over_network">Locate over wireless networks?</string>   
+    <string name="dialog_title_gps_dialog_text">Set GPS location?</string>
+    <string name="dialog_title_0_0_location">Set current address</string>
+    <string name="food_none">None</string>
+    <string name="food_not_good">Not Good</string>
+    <string name="food_average">Average</string>
+    <string name="food_very_good">Very Good</string>    
+    <string name="toast_logging_in_successful">Successful Login</string>
+    <string name="toast_logging_in_unsuccessful">Unsuccessful Login</string>
+    <string name="toast_registering_or_logging_in_unsuccessful">Unsuccessful SignUp/Login</string>
+    <string name="toast_registering_successful">Successful SignUp</string>
+    <string name="toast_registering_unsuccessful">Unuccessful SignUp</string>
+    <string name="tunes_feature_live">Live</string>
+    <string name="tunes_feature_canned">Canned</string>
+    <string name="tunes_feature_both">Both</string>
+    <string name="tunes_rating_rock">Rock</string>
+    <string name="tunes_rating_pop">Pop</string>
+    <string name="tunes_rating_rnb">RnB</string>
+    <string name="tunes_rating_country">Country</string>
+    <string name="tunes_rating_mixed">Mixed</string>
+    <string name="vibe_laidback">Laidback</string>
+    <string name="vibe_jazzy">Jazzy</string>
+    <string name="vibe_raunchy">Raunchy</string>
+    <string name="vibe_meet_market">Meet Market</string>
+    <string name="vibe_upbeat">Upbeat</string>
+    <string name="vibe_clean">Clean</string>        
+    
+</resources>
