@@ -9,13 +9,6 @@
         <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\additionnal-4cb6b15bd6cfb4b3c286d2fd34efcd4ad5521c45.jar" />
     </item>
     <item
-        jar="C:\Users\kristijandraca\workspace\xpatpub\app\libs\braintree-java-2.39.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4e38a67a865570e45323c7f91f30d791ce756830">
-        <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\braintree-java-2.39.1-f76d0195aa0011fe18b1a3a70f2de65cc99b7a14.jar" />
-    </item>
-    <item
         jar="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -23,18 +16,25 @@
         <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-35e63a9b951df709da80838eef8f32406d2a7107.jar" />
     </item>
     <item
+        jar="C:\Users\kristijandraca\.gradle\caches\modules-2\files-2.1\com.braintreepayments.api\data\1.2.7\89eec6c3a51086c2df46c05f865719353c0d661c\data-1.2.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="89eec6c3a51086c2df46c05f865719353c0d661c">
+        <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\data-1.2.7-69849f9b0b1d3bbf4123963b68afe8d5b37c4a65.jar" />
+    </item>
+    <item
+        jar="C:\Users\kristijandraca\.gradle\caches\modules-2\files-2.1\com.braintreepayments.api\braintree-api\1.2.7\874942388aebdb040236855303cf8df66ffffc\braintree-api-1.2.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00874942388aebdb040236855303cf8df66ffffc">
+        <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\braintree-api-1.2.7-aa433e4c4c22b7200a53b00438c1883a8f326e04.jar" />
+    </item>
+    <item
         jar="C:\Users\kristijandraca\workspace\xpatpub\app\libs\android-async-http-1.4.6.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
         <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-e22f84bdce251445099413b62ad5c9e78c56059b.jar" />
-    </item>
-    <item
-        jar="C:\Users\kristijandraca\workspace\xpatpub\app\libs\braintree-api-1.2.7-full.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1d16a996ba8b9caa7a1e81916e7fba580dc2124f">
-        <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\braintree-api-1.2.7-full-005b033933501ff83b0984305bf14b9bbb7c793a.jar" />
     </item>
     <item
         jar="C:\Users\kristijandraca\workspace\xpatpub\app\libs\activation.jar"
@@ -63,13 +63,6 @@
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
         <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-e58674b90947a1ec4e32e260e25bcf8c126723ff.jar" />
-    </item>
-    <item
-        jar="C:\Users\kristijandraca\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.5\77bf7cacf9cefe19dc105e5425d2eb1bb5285881\android-async-http-1.4.5.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
-        <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.5-6b33795597d1898f05a347c0adeac09eca48cbaf.jar" />
     </item>
     <item
         jar="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
@@ -107,6 +100,13 @@
         <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\mail-09c2004cd53b887bb12fd4ea8da658ff31b75fc2.jar" />
     </item>
     <item
+        jar="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\1.2.7\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0ae51bd74caf12d0331246fb9e2f28613e552d27">
+        <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-5095edc8d1e3ff69700234150c92e789ad2c1099.jar" />
+    </item>
+    <item
         jar="C:\Users\kristijandraca\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -140,6 +140,13 @@
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
         <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-8ab090b0ff4b1b5dea42d265622172a784e0c051.jar" />
+    </item>
+    <item
+        jar="C:\Users\kristijandraca\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\gson-2.3.1-3984df1e7aa1702be9f1144c186955a89140758c.jar" />
     </item>
 
 </items>
