@@ -21,7 +21,7 @@ public class Message {
 	public static final String MESSAGE_ID = "msgId";
 	public static final String MESSAGE_TEXT = "msgText";
 	public static final String MESSAGE_CREATED_DATE = "msgCreatedDate";
-	public static final String MESSAGE_EXP_DATE = "msgEXPDate";
+	public static final String MESSAGE_EXP_DATE = "msgExpDate";
 	public static final String MESSAGE_STATUS = "msgStatus";
 	public static final String MESSAGE_SENDER_ID = "msgSenderId";
 	public static final String MESSAGE_RECEIVER_ID = "msgReceiverId";

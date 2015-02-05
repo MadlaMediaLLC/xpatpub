@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -16,6 +17,7 @@ import com.han.xpatpub.R;
 import com.han.xpatpub.asynctasks.UserAsyncTask;
 import com.han.xpatpub.model.Action;
 import com.han.xpatpub.model.GlobalData;
+import com.han.xpatpub.model.Message;
 import com.han.xpatpub.utility.DialogUtility;
 import com.han.xpatpub.utility.MessagingUtility;
 import com.loopj.android.http.AsyncHttpClient;
@@ -23,6 +25,12 @@ import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 
 import org.apache.http.Header;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
 
 
 public class PubPatronActivity extends AbstractedActivity {
@@ -64,10 +72,35 @@ public class PubPatronActivity extends AbstractedActivity {
 	@Override
 	protected void onResume() {
 		super.onResume();
-		txtInboxCount.setText(Integer.toString(GlobalData.getUsabaleCouponsNumber()));
+
+         checkForExpiredCoupons();
+
+        txtInboxCount.setText(Integer.toString(GlobalData.getUsabaleCouponsNumber()));
 	}
-	
-	public void initWidget() {
+
+    private void checkForExpiredCoupons()  {
+        ArrayList<Message> messageData = GlobalData.getUsableCoupons();
+        for (int i = 0; i<messageData.size(); i++){
+            DateFormat dateformat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            Date currentDate = new Date();
+            Date expDate = null;
+            Message message = messageData.get(i);
+            try {
+                expDate = dateformat.parse(message.msgExpDate);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+            if(currentDate.after(expDate)){
+                returnCouponTo(message.msgSenderID);
+            }
+        }
+    }
+
+    private void returnCouponTo(int msgSenderID) {
+
+    }
+
+    public void initWidget() {
 		imgProfile = (ImageView) findViewById(R.id.my_profile_imageView);
 		txtUserName = (TextView) findViewById(R.id.myname_textView);
 		btnPrivacySettings = (Button) findViewById(R.id.privacy_settings_button);

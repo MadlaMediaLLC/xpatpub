@@ -30,6 +30,9 @@ public class MessageParser extends Result {
 				message.msgID 			= jsonMessage.getInt(Message.MESSAGE_ID);
 				message.msgText 		= jsonMessage.getString(Message.MESSAGE_TEXT);
 				message.msgCreatedDate 	= jsonMessage.getString(Message.MESSAGE_CREATED_DATE);
+                if(!jsonMessage.isNull(Message.MESSAGE_EXP_DATE)){
+                    message.msgExpDate 	    = jsonMessage.getString(Message.MESSAGE_EXP_DATE);
+                }
 				message.msgStatus 		= jsonMessage.getInt(Message.MESSAGE_STATUS);
 				message.msgSenderID		= jsonMessage.getInt(Message.MESSAGE_SENDER_ID);
 				message.msgReceiverID 	= jsonMessage.getInt(Message.MESSAGE_RECEIVER_ID);
