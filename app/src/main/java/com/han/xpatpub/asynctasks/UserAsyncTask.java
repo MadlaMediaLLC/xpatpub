@@ -460,9 +460,30 @@ public class UserAsyncTask extends AbstractedAsyncTask {
 
 
     public static int decreaseUsesLimit(String msgSenderId) {
-        // TODO update so it works
         try {
             String uri = URL.URL_SEND_COUPON_BY_ID+"&"+User.USER_ID + "=" + msgSenderId+ "&UserCoupons=-1";
+            HttpGet httpGet = new HttpGet(uri);
+            HttpClient httpClient = MyGetClient.getClient();
+
+            HttpResponse response = null;
+
+            httpGet = MyGetClient.setHeaders(httpGet);
+            response = httpClient.execute(httpGet);
+
+            String strResponse = EntityUtils.toString(response.getEntity());
+            Log.i(UserAsyncTask.class.getName(), "decreaseUsesLimit(); response:\n" + strResponse);
+
+            return Result.SUCCESS;
+
+        } catch (Exception e) {
+            MyLogUtility.error(UserAsyncTask.class, e, 0);
+            return Result.FAIL;
+        }
+    }
+
+    public static int increaseUsesLimit(String msgSenderId) {
+        try {
+            String uri = URL.URL_SEND_COUPON_BY_ID+"&"+User.USER_ID + "=" + msgSenderId+ "&UserCoupons=+1";
             HttpGet httpGet = new HttpGet(uri);
             HttpClient httpClient = MyGetClient.getClient();
 

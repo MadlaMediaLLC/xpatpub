@@ -68,7 +68,7 @@ public class MessageActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				if (isCheckCouponCode()) {
-					new GeneralAsyncTask(MessageActivity.this).execute(Action.ACTION_MARK_MESSAGE, Integer.toString(curMessage.msgID));
+					new GeneralAsyncTask(MessageActivity.this).execute(Action.ACTION_MARK_MESSAGE, Integer.toString(curMessage.msgID),Integer.toString(1));
 				}
 			}
         });

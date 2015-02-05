@@ -14,10 +14,12 @@ import android.widget.TextView;
 
 import com.braintreepayments.api.dropin.BraintreePaymentActivity;
 import com.han.xpatpub.R;
+import com.han.xpatpub.asynctasks.GeneralAsyncTask;
 import com.han.xpatpub.asynctasks.UserAsyncTask;
 import com.han.xpatpub.model.Action;
 import com.han.xpatpub.model.GlobalData;
 import com.han.xpatpub.model.Message;
+import com.han.xpatpub.network.MessageWebService;
 import com.han.xpatpub.utility.DialogUtility;
 import com.han.xpatpub.utility.MessagingUtility;
 import com.loopj.android.http.AsyncHttpClient;
@@ -96,8 +98,10 @@ public class PubPatronActivity extends AbstractedActivity {
         }
     }
 
-    private void returnCouponTo(int msgSenderID) {
-
+    private void returnCouponTo(int SenderID) {
+        String msgSenderID = String.valueOf(SenderID);
+        new GeneralAsyncTask(this).execute(Action.ACTION_MARK_MESSAGE,msgSenderID,"0");
+        new GeneralAsyncTask(this).execute(Action.OWNER_RETURN_COUPON,msgSenderID);
     }
 
     public void initWidget() {

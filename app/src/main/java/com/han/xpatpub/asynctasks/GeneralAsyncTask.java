@@ -104,7 +104,8 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 			
 		} else if (curAction.equals(Action.ACTION_MARK_MESSAGE)) {
 			String msgId = params[1];
-			nResult = MessageWebService.markMessage(msgId);
+            String status = params[2];
+			nResult = MessageWebService.markMessage(msgId,Integer.valueOf(status));
 			if (nResult == Result.SUCCESS) {
 				nResult = MessageWebService.readMyMessage();
 			}
@@ -130,9 +131,17 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 					nResult = MessageWebService.readMyMessage();
 				}
 			}			
-		} 
-		
-		return nResult;
+		} else if (curAction.equals(Action.OWNER_RETURN_COUPON)) {
+            String msgSenderId = params[1];
+
+            nResult = UserAsyncTask.increaseUsesLimit(msgSenderId);
+            if (nResult == Result.SUCCESS) {
+                nResult = MessageWebService.readMyMessage();
+            }
+
+        }
+
+        return nResult;
 	}
 	
 	@Override

@@ -92,7 +92,7 @@ public class MessageWebService extends MyGetClient {
 		}
 	}
 	
-	public static Integer markMessage(String msgId) {
+	public static Integer markMessage(String msgId, int status) {
 		
 		try {
 			HttpPatch httpPatch = new HttpPatch(URL.URL_MESSAGE);
@@ -101,8 +101,8 @@ public class MessageWebService extends MyGetClient {
 
 			JSONObject jsonObject = new JSONObject();
 			JSONObject jsonRecord = new JSONObject();
-			jsonRecord.accumulate(Message.MESSAGE_ID, msgId);
-			jsonRecord.accumulate(Message.MESSAGE_STATUS, 1);
+			jsonRecord.accumulate(Message.MESSAGE_ID, 1);
+			jsonRecord.accumulate(Message.MESSAGE_STATUS, status);
 			jsonRecord.accumulate(Message.MESSAGE_COUPON_USED, 1);
 			jsonRecord.accumulate(Message.MESSAGE_USED_TIME, TimeUtility.getCurrentTime(TimeUtility.DATE_FORMAT));
 			jsonObject.accumulate(General.RECORD, jsonRecord);

@@ -32,6 +32,7 @@ public class Action {
 	public static final String ACTION_ADD_PUB_FORCE = "action_add_pub_force";
 	public static final String ACTION_PUB_RATE = "action_add_rate";
 	public static final String ACTION_SEARCH_PUB = "action_search_pub";
-	// public static final String ACTION_CHECK_BEFORE_SEARCH_PUB =
+    public static final String OWNER_RETURN_COUPON = "action_return_coupon";
+    // public static final String ACTION_CHECK_BEFORE_SEARCH_PUB =
 	// "ACTION_CHECK_BEFORE_SEARCH_PUB";
 }
