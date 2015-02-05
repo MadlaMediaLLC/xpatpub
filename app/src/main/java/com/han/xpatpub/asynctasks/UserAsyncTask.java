@@ -1,5 +1,6 @@
 package com.han.xpatpub.asynctasks;
 
+import java.net.URI;
 import java.util.ArrayList;
 
 import org.apache.http.HttpResponse;
@@ -426,7 +427,7 @@ public class UserAsyncTask extends AbstractedAsyncTask {
 		}
 	}
 
-	public static Integer decreaseUsesLimit(String msgCouponId, String msgCouponUsesLimit) {
+	private static Integer decreaseUsesLimit(String msgCouponId, String msgCouponUsesLimit) {
 		// TODO update so it works
 		try {
 			HttpPatch httpPatch = new HttpPatch(URL.URL_SEND_COUPON);
@@ -456,4 +457,28 @@ public class UserAsyncTask extends AbstractedAsyncTask {
 			return Result.FAIL;
 		}
 	}
+
+
+    public static int decreaseUsesLimit(String msgSenderId) {
+        // TODO update so it works
+        try {
+            String uri = URL.URL_SEND_COUPON_BY_ID+"&"+User.USER_ID + "=" + msgSenderId+ "&UserCoupons=-1";
+            HttpGet httpGet = new HttpGet(uri);
+            HttpClient httpClient = MyGetClient.getClient();
+
+            HttpResponse response = null;
+
+            httpGet = MyGetClient.setHeaders(httpGet);
+            response = httpClient.execute(httpGet);
+
+            String strResponse = EntityUtils.toString(response.getEntity());
+            Log.i(UserAsyncTask.class.getName(), "decreaseUsesLimit(); response:\n" + strResponse);
+
+            return Result.SUCCESS;
+
+        } catch (Exception e) {
+            MyLogUtility.error(UserAsyncTask.class, e, 0);
+            return Result.FAIL;
+        }
+    }
 }

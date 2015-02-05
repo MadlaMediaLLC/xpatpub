@@ -212,4 +212,9 @@ public class PubOwnerActivity extends Activity {
             e.printStackTrace();
         }
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        initValue();
+    }
 }

@@ -14,6 +14,7 @@ public class URL {
 //    public static final String URL_PUB_INFO_AND_RATE = General.IP_REST_XPATPUB + "/tblPubFeatureCounter";    
     public static final String URL_MESSAGE = General.IP_REST_XPATPUB + "/tblmessage?app_name=" + General.APP_NAME;
 	public static final String URL_SEND_COUPON = General.IP_REST_XPATPUB + "/tblcoupon?app_name=" + General.APP_NAME;
+    public static final String URL_SEND_COUPON_BY_ID = General.IP_REST_GET_GENERIC_SERVICES+"/?app_name="+General.APP_NAME+"&action=setUserCoupons";
 	public static final String URL_READ_MESSAGE = General.IP_REST_XPATPUB + "/tblmessage?app_name=" + General.APP_NAME + "&include_count=true&msgStatus=0";
 	public static final String URL_UPDATE_PUB_ICON = General.IP_REST_GET_GENERIC_SERVICES + "/?app_name=" + General.APP_NAME + "&action=updatePubIcon";
     public static final String URL_COUPON_LIST = General.IP_REST_XPATPUB + "/tblcoupon?app_name=" + General.APP_NAME;

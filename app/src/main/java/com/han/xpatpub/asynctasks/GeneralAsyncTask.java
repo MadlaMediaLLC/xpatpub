@@ -124,7 +124,7 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 			nResult = MessageWebService.addMessage(msgText, msgStatus, msgSenderId, msgReceiverId, msgPubId, msgCouponId);
 			
 			if (nResult == Result.SUCCESS) {					
-				nResult = UserAsyncTask.decreaseUsesLimit(msgCouponId, msgCouponUsesLimit);
+				nResult = UserAsyncTask.decreaseUsesLimit(msgSenderId);
 				
 				if (nResult == Result.SUCCESS) {				
 					nResult = MessageWebService.readMyMessage();

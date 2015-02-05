@@ -82,8 +82,9 @@ public class CouponActivity extends Activity {
 			}
         });
 	}
-	
-	public class CouponAdapter extends ArrayAdapter<Coupon> {
+
+
+    public class CouponAdapter extends ArrayAdapter<Coupon> {
     	
     	ArrayList<Coupon> arrData;
     	static final int layout_id = R.layout.row_coupon;
@@ -141,7 +142,8 @@ public class CouponActivity extends Activity {
 							new GeneralAsyncTask(CouponActivity.this)
 								.execute(Action.OWNER_SEND_COUPON, msgText, msgSenderId, msgReceiverId, msgPubId, msgCouponId, msgCouponUsesLimit);
 						}
-					}				
+					}
+
 				}
 	        });
 			
@@ -150,13 +152,19 @@ public class CouponActivity extends Activity {
 		
 		public void decreaseCouponUsesLimit(int position) {
 			arrData.get(position).couponUsesLimit--;
-//			arrData.notify();
 			this.notifyDataSetChanged();
+
 		}
     }
-	
-	public void succesfulCouponSent() {
-//		adapter.decreaseCouponUsesLimit(lastPosition);	 // TODO
-		Toast.makeText(this, "Coupon sent", Toast.LENGTH_SHORT).show();		
+
+    private void updateUserCoupons(int newCoupon) {
+        GlobalData.currentUser.userCoupons = String.valueOf(newCoupon);
+        txtUserName.setText(String.valueOf(newCoupon) + " coupons remaining.");
+    }
+
+    public void succesfulCouponSent() {
+		adapter.decreaseCouponUsesLimit(lastPosition);	 // TODO
+		Toast.makeText(this, "Coupon sent", Toast.LENGTH_SHORT).show();
+        updateUserCoupons(Integer.valueOf(GlobalData.currentUser.userCoupons)-1);
 	}
 }

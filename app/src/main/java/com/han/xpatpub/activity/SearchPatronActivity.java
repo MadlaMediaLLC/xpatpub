@@ -192,4 +192,10 @@ public class SearchPatronActivity extends AbstractedActivity {
 			notifyDataSetChanged();
 		}
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        initValue();
+    }
 }
