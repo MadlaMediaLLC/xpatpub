@@ -15,4 +15,4 @@
     
     <!-- enabled state -->
     <item android:drawable="@drawable/general_button_default_back" android:state_enabled="true"/>
-</selector><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/general_button_back.xml -->
+</selector><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/general_button_back.xml -->

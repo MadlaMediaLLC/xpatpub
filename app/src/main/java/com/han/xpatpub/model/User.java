@@ -25,6 +25,7 @@ public class User {
 	public String userStatus;
 	public String userToken;
 	public String userType = "1";
+    public String userClientToken;
 	
 	public static final String USER_CODE = "userCode";
 	public static final String USER_COUPON = "userCoupon";

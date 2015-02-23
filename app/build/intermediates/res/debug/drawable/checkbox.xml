@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/check_off" android:state_checked="false"/>
     <item android:drawable="@drawable/check_off"/>
 
-</selector><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/checkbox.xml -->
+</selector><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/checkbox.xml -->

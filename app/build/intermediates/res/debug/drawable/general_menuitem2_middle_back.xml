@@ -15,4 +15,4 @@
     
     <!-- enabled state -->
     <item android:drawable="@color/general_menuitem2_back_default_color" android:state_enabled="true"/>
-</selector><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/general_menuitem2_middle_back.xml -->
+</selector><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/general_menuitem2_middle_back.xml -->

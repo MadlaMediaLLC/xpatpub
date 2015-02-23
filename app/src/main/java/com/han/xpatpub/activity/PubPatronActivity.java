@@ -13,21 +13,27 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.braintreepayments.api.dropin.BraintreePaymentActivity;
+import com.braintreepayments.api.dropin.Customization;
 import com.han.xpatpub.R;
 import com.han.xpatpub.asynctasks.GeneralAsyncTask;
 import com.han.xpatpub.asynctasks.UserAsyncTask;
 import com.han.xpatpub.model.Action;
 import com.han.xpatpub.model.GlobalData;
 import com.han.xpatpub.model.Message;
+import com.han.xpatpub.model.URL;
 import com.han.xpatpub.network.MessageWebService;
 import com.han.xpatpub.utility.DialogUtility;
 import com.han.xpatpub.utility.MessagingUtility;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
+import com.loopj.android.http.TextHttpResponseHandler;
 
 import org.apache.http.Header;
+import org.json.JSONException;
+import org.json.JSONObject;
 
+import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -69,9 +75,14 @@ public class PubPatronActivity extends AbstractedActivity {
 		onReceive();
 		initValue();
 		initEvent();
+        findClientToken();
 	}
-	
-	@Override
+
+    private void findClientToken() {
+        new GeneralAsyncTask(this).execute(Action.ACTION_GET_CLIENT_TOKEN);
+    }
+
+    @Override
 	protected void onResume() {
 		super.onResume();
 
@@ -200,7 +211,14 @@ public class PubPatronActivity extends AbstractedActivity {
 						}).show();
 		    	}*/
                 Intent intent = new Intent(PubPatronActivity.this, BraintreePaymentActivity.class);
-                intent.putExtra(BraintreePaymentActivity.EXTRA_CLIENT_TOKEN, "eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI5ZWE3ZDdjMjE5ODIwNmI2NDdiNWExZWI4MGMxMDVlMjQ1NzhiNWZkNmU1NWY5ODU4OWVkYmNmNmYzMTY5Nzk3fGNyZWF0ZWRfYXQ9MjAxNS0wMi0wNFQxMjoyMDoxMC45ODY5NjUyNDgrMDAwMFx1MDAyNm1lcmNoYW50X2lkPWRjcHNweTJicndkanIzcW5cdTAwMjZwdWJsaWNfa2V5PTl3d3J6cWszdnIzdDRuYzgiLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvZGNwc3B5MmJyd2RqcjNxbi9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwicGF5bWVudEFwcHMiOltdLCJjbGllbnRBcGlVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvZGNwc3B5MmJyd2RqcjNxbi9jbGllbnRfYXBpIiwiYXNzZXRzVXJsIjoiaHR0cHM6Ly9hc3NldHMuYnJhaW50cmVlZ2F0ZXdheS5jb20iLCJhdXRoVXJsIjoiaHR0cHM6Ly9hdXRoLnZlbm1vLnNhbmRib3guYnJhaW50cmVlZ2F0ZXdheS5jb20iLCJhbmFseXRpY3MiOnsidXJsIjoiaHR0cHM6Ly9jbGllbnQtYW5hbHl0aWNzLnNhbmRib3guYnJhaW50cmVlZ2F0ZXdheS5jb20ifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwidGhyZWVEU2VjdXJlIjp7Imxvb2t1cFVybCI6Imh0dHBzOi8vYXBpLnNhbmRib3guYnJhaW50cmVlZ2F0ZXdheS5jb206NDQzL21lcmNoYW50cy9kY3BzcHkyYnJ3ZGpyM3FuL3RocmVlX2Rfc2VjdXJlL2xvb2t1cCJ9LCJwYXlwYWxFbmFibGVkIjp0cnVlLCJwYXlwYWwiOnsiZGlzcGxheU5hbWUiOiJBY21lIFdpZGdldHMsIEx0ZC4gKFNhbmRib3gpIiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJtZXJjaGFudEFjY291bnRJZCI6InN0Y2gybmZkZndzenl0dzUiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwiY29pbmJhc2VFbmFibGVkIjpmYWxzZSwibWVyY2hhbnRJZCI6ImRjcHNweTJicndkanIzcW4iLCJ2ZW5tbyI6Im9mZmxpbmUiLCJhcHBsZVBheSI6eyJzdGF0dXMiOiJtb2NrIiwiY291bnRyeUNvZGUiOiJVUyIsImN1cnJlbmN5Q29kZSI6IlVTRCIsIm1lcmNoYW50SWRlbnRpZmllciI6Im1lcmNoYW50LmNvbS5icmFpbnRyZWVwYXltZW50cy5kZXYtZGNvcGVsYW5kIiwic3VwcG9ydGVkTmV0d29ya3MiOlsidmlzYSIsIm1hc3RlcmNhcmQiLCJhbWV4Il19fQ==");
+                intent.putExtra(BraintreePaymentActivity.EXTRA_CLIENT_TOKEN, GlobalData.currentUser.userClientToken);
+                //intent.putExtra(BraintreePaymentActivity.EXTRA_CLIENT_TOKEN,"eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJmMjFjZmEwMTkxZDhjZmE1NDgzNDhlZDg2NzE2NGI1OWUzNmU1ZTIzZWVjMjUxOGQwYmE1Y2JhMDkwNzEzNGI1fGNyZWF0ZWRfYXQ9MjAxNS0wMi0xN1QxMjoxNDo0Mi4yODk1OTk3NjgrMDAwMFx1MDAyNm1lcmNoYW50X2lkPWRjcHNweTJicndkanIzcW5cdTAwMjZwdWJsaWNfa2V5PTl3d3J6cWszdnIzdDRuYzgiLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvZGNwc3B5MmJyd2RqcjNxbi9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL2RjcHNweTJicndkanIzcW4vY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIn0sInRocmVlRFNlY3VyZUVuYWJsZWQiOnRydWUsInRocmVlRFNlY3VyZSI6eyJsb29rdXBVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvZGNwc3B5MmJyd2RqcjNxbi90aHJlZV9kX3NlY3VyZS9sb29rdXAifSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiQWNtZSBXaWRnZXRzLCBMdGQuIChTYW5kYm94KSIsImNsaWVudElkIjpudWxsLCJwcml2YWN5VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3BwIiwidXNlckFncmVlbWVudFVybCI6Imh0dHA6Ly9leGFtcGxlLmNvbS90b3MiLCJiYXNlVXJsIjoiaHR0cHM6Ly9hc3NldHMuYnJhaW50cmVlZ2F0ZXdheS5jb20iLCJhc3NldHNVcmwiOiJodHRwczovL2NoZWNrb3V0LnBheXBhbC5jb20iLCJkaXJlY3RCYXNlVXJsIjpudWxsLCJhbGxvd0h0dHAiOnRydWUsImVudmlyb25tZW50Tm9OZXR3b3JrIjp0cnVlLCJlbnZpcm9ubWVudCI6Im9mZmxpbmUiLCJ1bnZldHRlZE1lcmNoYW50IjpmYWxzZSwibWVyY2hhbnRBY2NvdW50SWQiOiJzdGNoMm5mZGZ3c3p5dHc1IiwiY3VycmVuY3lJc29Db2RlIjoiVVNEIn0sImNvaW5iYXNlRW5hYmxlZCI6dHJ1ZSwiY29pbmJhc2UiOnsiY2xpZW50SWQiOiJhZTBkMTk4MWI1MzcxNDgzZDZkODA2OTA5M2EwNjY5MjEyMGRiZTM0YWE0NTBlNzY0ZmY2NTI2ZWVmODhiMTlkIiwibWVyY2hhbnRBY2NvdW50IjoiZGV2cytzYW5kYm94LXNhbXBsZS1tZXJjaGFudEBicmFpbnRyZWVwYXltZW50cy5jb20iLCJzY29wZXMiOiJhdXRob3JpemF0aW9uczpicmFpbnRyZWUgdXNlciIsInJlZGlyZWN0VXJsIjoiaHR0cHM6Ly9hc3NldHMuYnJhaW50cmVlZ2F0ZXdheS5jb20vY29pbmJhc2Uvb2F1dGgvcmVkaXJlY3QtbGFuZGluZy5odG1sIn0sIm1lcmNoYW50SWQiOiJkY3BzcHkyYnJ3ZGpyM3FuIiwidmVubW8iOiJvZmZsaW5lIiwiYXBwbGVQYXkiOnsic3RhdHVzIjoibW9jayIsImNvdW50cnlDb2RlIjoiVVMiLCJjdXJyZW5jeUNvZGUiOiJVU0QiLCJtZXJjaGFudElkZW50aWZpZXIiOiJtZXJjaGFudC5jb20uYnJhaW50cmVlcGF5bWVudHMuZGV2LWRjb3BlbGFuZCIsInN1cHBvcnRlZE5ldHdvcmtzIjpbInZpc2EiLCJtYXN0ZXJjYXJkIiwiYW1leCJdfX0=");
+                Customization customization = new Customization.CustomizationBuilder()
+                        .primaryDescription("Pub Owner Account")
+                        .amount("$200")
+                        .submitButtonText("Upgrade")
+                        .build();
+                intent.putExtra(BraintreePaymentActivity.EXTRA_CUSTOMIZATION, customization);
                 startActivityForResult(intent, REQUEST_CODE);
 			}
 		});
@@ -235,62 +253,39 @@ public class PubPatronActivity extends AbstractedActivity {
 			}
         });
 	}
-    @Override
+/*    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == REQUEST_CODE) {
+            Log.d("resultCode",String.valueOf(resultCode));
             if (resultCode == BraintreePaymentActivity.RESULT_OK) {
                 String paymentMethodNonce = data.getStringExtra(BraintreePaymentActivity.EXTRA_PAYMENT_METHOD_NONCE);
-                postNonceToServer(paymentMethodNonce);
+                new GeneralAsyncTask(this).execute(Action.ACTION_SEND_NONCE,paymentMethodNonce);
             }
         }
-    }
+    }*/
 
-    void postNonceToServer(String nonce) {
-        AsyncHttpClient client = new AsyncHttpClient();
-        RequestParams params = new RequestParams();
-        params.put("nonce", nonce);
-        client.post("https://your-server/payment-method-nonce", params,
-                new AsyncHttpResponseHandler() {
-                    // TODO implementation here
-                    @Override
-                    public void onSuccess(int i, Header[] headers, byte[] bytes) {
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Log.d("ERROR", String.valueOf(data.getSerializableExtra(BraintreePaymentActivity.EXTRA_ERROR_MESSAGE)));
+		if (requestCode == REQUEST_CODE) {
+			switch (resultCode) {
+			case BraintreePaymentActivity.RESULT_OK:
+				String paymentMethodNonce = data
+						.getStringExtra(BraintreePaymentActivity.EXTRA_PAYMENT_METHOD_NONCE);
+				break;
+			case BraintreePaymentActivity.BRAINTREE_RESULT_DEVELOPER_ERROR:
+			case BraintreePaymentActivity.BRAINTREE_RESULT_SERVER_ERROR:
+                Log.d("ERROR", String.valueOf(data.getSerializableExtra(BraintreePaymentActivity.EXTRA_ERROR_MESSAGE)));
+			case BraintreePaymentActivity.BRAINTREE_RESULT_SERVER_UNAVAILABLE:
+				// handle errors here, a throwable may be available in
 
-                    }
+				break;
+			default:
+				break;
+			}
+		}
+	}
 
-                    @Override
-                    public void onFailure(int i, Header[] headers, byte[] bytes, Throwable throwable) {
-
-                    }
-
-                }
-        );
-    }
-//	@Override
-//	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//		if (requestCode == REQUEST_CODE) {
-//			switch (resultCode) {
-//			case BraintreePaymentActivity.RESULT_OK:
-//				String paymentMethodNonce = data
-//						.getStringExtra(BraintreePaymentActivity.EXTRA_PAYMENT_METHOD_NONCE);
-//				break;
-//			case BraintreePaymentActivity.BRAINTREE_RESULT_DEVELOPER_ERROR:
-//			case BraintreePaymentActivity.BRAINTREE_RESULT_SERVER_ERROR:
-//			case BraintreePaymentActivity.BRAINTREE_RESULT_SERVER_UNAVAILABLE:
-//				// handle errors here, a throwable may be available in
-//				// data.getSerializableExtra(BraintreePaymentActivity.EXTRA_ERROR_MESSAGE)
-//				break;
-//			default:
-//				break;
-//			}
-//		}
-//	}
-//	
-//	private static BraintreeGateway gateway = new BraintreeGateway(
-//	        Environment.SANDBOX,
-//	        "9x4r57vrfb9k8v5k",
-//	        "84kb2h884b7w2mk4",
-//	        "728c218ec1a224c01208782802d16283"
-//	    );
 //	
 //	public void onBraintreeSubmit(View v) {
 //		Customization customization = new CustomizationBuilder()

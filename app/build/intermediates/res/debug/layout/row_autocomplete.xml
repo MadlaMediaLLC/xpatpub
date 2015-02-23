@@ -4,4 +4,4 @@
     android:layout_height="40dp"
     android:padding="@dimen/padding_activity_half"
     android:gravity="center_vertical"
-    android:textColor="@android:color/black" /><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/row_autocomplete.xml -->
+    android:textColor="@android:color/black" /><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/layout/row_autocomplete.xml -->

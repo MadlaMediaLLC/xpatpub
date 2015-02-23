@@ -25,5 +25,6 @@ public class URL {
 	public static final String URL_REGISTER = General.IP_REST_XPATPUB + "/tblusers?app_name=" + General.APP_NAME;
 //	public static final String URL_USER_PUB = General.IP_REST_XPATPUB + "/tblpubs?app_name=" + General.APP_NAME + "&include_count=true";
 	public static final String URL_UPDATE_USER_PRIVACY = General.IP_REST_XPATPUB + "/tblusers?app_name=" + General.APP_NAME;
-	public static final String URL_UPDATE_USER_LOCATION = General.IP_REST_XPATPUB + "/tblusers?app_name=" + General.APP_NAME;   
+	public static final String URL_UPDATE_USER_LOCATION = General.IP_REST_XPATPUB + "/tblusers?app_name=" + General.APP_NAME;
+    public static final String URL_GET_TOKEN = General.IP_REST_GET_GENERIC_SERVICES+"/?app_name="+General.APP_NAME+"&action=getClientToken&customerId=";
 }

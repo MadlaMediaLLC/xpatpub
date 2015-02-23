@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-es/values.xml -->
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-es/values.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -17,7 +17,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
-    <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments.api/braintree/1.3.0/res/values-es/values.xml -->
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments.api/braintree/1.3.0/res/values-es/values.xml -->
     <eat-comment/>
     <string name="bt_add_new_payment_method">Añadir nueva forma de pago</string>
     <string name="bt_add_payment_method">Añadir forma de pago</string>
@@ -25,10 +25,10 @@
     <string name="bt_change_payment_method">Cambiar forma de pago</string>
     <string name="bt_choose_payment_method">Seleccionar forma de pago</string>
     <string name="bt_default_action_bar_text">Comprar</string>
-    <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments/card-form/1.3.0/res/values-es/values.xml -->
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments/card-form/1.3.0/res/values-es/values.xml -->
     <eat-comment/>
     <string name="bt_default_action_label">Comprar</string>
-    <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments.api/braintree/1.3.0/res/values-es/values.xml -->
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments.api/braintree/1.3.0/res/values-es/values.xml -->
     <eat-comment/>
     <string name="bt_default_submit_button_text">Comprar</string>
     <string name="bt_descriptor_amex">Amex</string>
@@ -40,19 +40,19 @@
     <string name="bt_descriptor_paypal">PayPal</string>
     <string name="bt_descriptor_unknown">Tarjeta</string>
     <string name="bt_descriptor_visa">Visa</string>
-    <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments/card-form/1.3.0/res/values-es/values.xml -->
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments/card-form/1.3.0/res/values-es/values.xml -->
     <eat-comment/>
     <string name="bt_form_hint_card_number">Número de tarjeta</string>
     <string name="bt_form_hint_cvv">CVV</string>
     <string name="bt_form_hint_expiration">Vencimiento</string>
     <string name="bt_form_hint_postal_code">Código postal</string>
-    <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments.api/braintree/1.3.0/res/values-es/values.xml -->
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments.api/braintree/1.3.0/res/values-es/values.xml -->
     <eat-comment/>
     <string name="bt_form_pay_with_card_header">PAGAR CON TARJETA</string>
     <string name="bt_invalid_card">La información de la tarjeta no es válida.</string>
     <string name="bt_pay_with_paypal">Pagar con PayPal</string>
     <string name="bt_pay_with_venmo">Pagar con Venmo</string>
-    <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.22.0/res/values-es/values.xml -->
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.0/res/values-es/values.xml -->
     <eat-comment/>
     <string name="com_facebook_choose_friends">Elige Amigos</string>
     <string name="com_facebook_dialogloginactivity_ok_button">Aceptar</string>
@@ -80,7 +80,7 @@
     <string name="com_facebook_usersettingsfragment_log_in_button">Iniciar sesión…</string>
     <string name="com_facebook_usersettingsfragment_logged_in">Sesión iniciada</string>
     <string name="com_facebook_usersettingsfragment_not_logged_in">No has iniciado sesión</string>
-    <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-es/common_strings.xml -->
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-es/common_strings.xml -->
     <eat-comment/>
     <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Una aplicación necesita que Android Wear se actualice."</string>
     <string msgid="3046420540094071256" name="common_android_wear_update_text">"Esta aplicación no se ejecutará hasta que actualices Android Wear."</string>
@@ -110,7 +110,7 @@
     <string msgid="411506735369601515" name="common_open_on_phone">"Abrir en teléfono"</string>
     <string msgid="9071884888741449141" name="common_signin_button_text">"Iniciar sesión"</string>
     <string msgid="2429381841831957106" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
-    <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-es/wallet_strings.xml -->
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-es/wallet_strings.xml -->
     <eat-comment/>
     <string name="wallet_buy_button_place_holder">Comprar con Google</string>
 </resources>

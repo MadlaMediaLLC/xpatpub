@@ -139,12 +139,61 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
                 nResult = MessageWebService.readMyMessage();
             }
 
+        } else if (curAction.equals(Action.ACTION_GET_CLIENT_TOKEN)) {
+            nResult = parseClientToken();
+        } else if (curAction.equals(Action.ACTION_SEND_NONCE)) {
+            String nonce = params[1];
+            nResult = sendNonce(nonce);
+            Log.d("NONCE", String.valueOf(nResult));
         }
 
         return nResult;
 	}
-	
-	@Override
+    private int sendNonce(String nonce){
+        try {
+            HttpPost httpPost = new HttpPost(URL.URL_GET_TOKEN);
+            HttpClient httpClient = MyGetClient.getClient();
+            HttpResponse response = null;
+
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.accumulate("nonce", nonce);
+            String json = jsonObject.toString();
+            StringEntity se = new StringEntity(json);
+
+            httpPost.setEntity(se);
+            httpPost = MyGetClient.setHeaders(httpPost);
+
+            response = httpClient.execute(httpPost);
+
+            Log.d("TAG",response.toString());
+            return Result.SUCCESS;
+
+        } catch (Exception e) {
+            MyLogUtility.error(GeneralAsyncTask.class, e, 0);
+            return Result.FAIL;
+        }
+    }
+    private int parseClientToken() {
+
+        try {
+            HttpGet httpGet = new HttpGet(URL.URL_GET_TOKEN);
+            HttpClient httpClient = MyGetClient.getClient();
+            HttpResponse response = null;
+            httpGet = MyGetClient.setHeaders(httpGet);
+
+            response = httpClient.execute(httpGet);
+
+            String strResponse = EntityUtils.toString(response.getEntity());
+            GlobalData.currentUser.userClientToken = strResponse;
+            return Result.SUCCESS;
+
+        } catch (Exception e) {
+            MyLogUtility.error(GeneralAsyncTask.class, e, 0);
+            return Result.FAIL;
+        }
+    }
+
+    @Override
 	protected void onPostExecute(Integer result) {
 		super.onPostExecute(result);
 //		parent.startActivity(new Intent(parent, CompleteActivity.class));
@@ -169,10 +218,14 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 				if (activity instanceof ResultActivity) {
 					((ResultActivity) activity).setUnreadMessageCount();
 				}
-				
-				MessageActivity messageActivity = (MessageActivity) parent;
-				messageActivity.successMarkMessage();
-			}
+
+                try {
+                    MessageActivity messageActivity = (MessageActivity) parent;
+                    messageActivity.successMarkMessage();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
 			
 		} else if (curAction.equals(Action.ACTION_CREATE_MESSAGE)) {
 			if (nResult == Result.SUCCESS) {

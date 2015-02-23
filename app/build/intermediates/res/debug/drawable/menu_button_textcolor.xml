@@ -6,4 +6,4 @@
     <item android:state_enabled="true" android:state_selected="true" android:color="@color/menu_button_text_pressed_color" />
     <item android:color="@color/menu_button_text_default_color" />
 </selector>
-<!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/menu_button_textcolor.xml -->
+<!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/menu_button_textcolor.xml -->

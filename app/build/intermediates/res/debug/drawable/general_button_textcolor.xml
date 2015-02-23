@@ -5,4 +5,4 @@
     <item android:state_enabled="true" android:state_focused="true" android:color="@color/general_button_text_focused_color" />
     <item android:state_enabled="true" android:state_selected="true" android:color="@color/general_button_text_selected_color" />
     <item android:color="@color/general_button_text_default_color" />
-</selector><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/general_button_textcolor.xml -->
+</selector><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/general_button_textcolor.xml -->
