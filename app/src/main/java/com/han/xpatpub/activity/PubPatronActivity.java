@@ -270,8 +270,9 @@ public class PubPatronActivity extends AbstractedActivity {
 		if (requestCode == REQUEST_CODE) {
 			switch (resultCode) {
 			case BraintreePaymentActivity.RESULT_OK:
-				String paymentMethodNonce = data
-						.getStringExtra(BraintreePaymentActivity.EXTRA_PAYMENT_METHOD_NONCE);
+				String paymentMethodNonce = data.getStringExtra(BraintreePaymentActivity.EXTRA_PAYMENT_METHOD_NONCE);
+                new GeneralAsyncTask(this).execute(Action.ACTION_SEND_NONCE,paymentMethodNonce);
+
 				break;
 			case BraintreePaymentActivity.BRAINTREE_RESULT_DEVELOPER_ERROR:
 			case BraintreePaymentActivity.BRAINTREE_RESULT_SERVER_ERROR:

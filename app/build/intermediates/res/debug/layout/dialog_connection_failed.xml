@@ -44,4 +44,4 @@
             android:text="@string/dialog_btn_cancel" />
     </LinearLayout>
 
-</ScrollView><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/layout/dialog_connection_failed.xml -->
+</ScrollView><!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/src/main/res/layout/dialog_connection_failed.xml -->

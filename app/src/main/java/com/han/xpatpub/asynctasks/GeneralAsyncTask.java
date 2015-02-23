@@ -151,21 +151,26 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 	}
     private int sendNonce(String nonce){
         try {
-            HttpPost httpPost = new HttpPost(URL.URL_GET_TOKEN);
+            HttpPost httpPost = new HttpPost(URL.URL_SEND_NONCE);
             HttpClient httpClient = MyGetClient.getClient();
             HttpResponse response = null;
+            httpPost = MyGetClient.setHeaders(httpPost);
 
             JSONObject jsonObject = new JSONObject();
-            jsonObject.accumulate("nonce", nonce);
+            jsonObject.accumulate("payment_method_nonce", nonce);
             String json = jsonObject.toString();
             StringEntity se = new StringEntity(json);
 
             httpPost.setEntity(se);
-            httpPost = MyGetClient.setHeaders(httpPost);
+            httpPost.setHeader("Accept", "application/json");
+            httpPost.setHeader("Content-type", "application/json");
 
             response = httpClient.execute(httpPost);
 
-            Log.d("TAG",response.toString());
+            JSONObject jsonToken = new JSONObject(EntityUtils.toString(response.getEntity()));
+            JSONArray arrayResponse = jsonToken.getJSONArray("result");
+
+            Log.d("NONCE_TAG",String.valueOf(arrayResponse.length()));
             return Result.SUCCESS;
 
         } catch (Exception e) {
@@ -176,14 +181,27 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
     private int parseClientToken() {
 
         try {
-            HttpGet httpGet = new HttpGet(URL.URL_GET_TOKEN);
+            HttpPost httpPost = new HttpPost(URL.URL_GET_TOKEN);
             HttpClient httpClient = MyGetClient.getClient();
             HttpResponse response = null;
-            httpGet = MyGetClient.setHeaders(httpGet);
+            httpPost = MyGetClient.setHeaders(httpPost);
 
-            response = httpClient.execute(httpGet);
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.accumulate("userId", GlobalData.currentUser.userID);
+//            jsonObject.accumulate("customerID", password);
 
-            String strResponse = EntityUtils.toString(response.getEntity());
+            String json = jsonObject.toString();
+            StringEntity se = new StringEntity(json);
+
+            httpPost.setEntity(se);
+            httpPost.setHeader("Accept", "application/json");
+            httpPost.setHeader("Content-type", "application/json");
+            // TODO maybe third line is missing...?
+
+            response = httpClient.execute(httpPost);
+
+            JSONObject jsonToken = new JSONObject(EntityUtils.toString(response.getEntity()));
+            String strResponse = jsonToken.getString("clienttoken");
             GlobalData.currentUser.userClientToken = strResponse;
             return Result.SUCCESS;
 
@@ -245,10 +263,10 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 	private Integer session(String email, String password) {
 		
 		try {
-			HttpPost httpPost = new HttpPost(URL.URL_SESSION);
-			HttpClient httpClient = MyGetClient.getClient();
-			HttpResponse response = null;
-			 
+		            HttpPost httpPost = new HttpPost(URL.URL_SESSION);
+            HttpClient httpClient = MyGetClient.getClient();
+            HttpResponse response = null;
+
             JSONObject jsonObject = new JSONObject();
             jsonObject.accumulate("email", email);
             jsonObject.accumulate("password", password);
