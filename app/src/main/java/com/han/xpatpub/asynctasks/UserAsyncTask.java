@@ -194,6 +194,7 @@ public class UserAsyncTask extends AbstractedAsyncTask {
 			GlobalData.currentUser.userStatus 	= jsonUser.getString(User.USER_STATUS);			
 			GlobalData.currentUser.userToken	= jsonUser.getString(User.USER_TOKEN);
 			GlobalData.currentUser.userType 	= jsonUser.getString(User.USER_TYPE);
+            GlobalData.currentUser.userCustomerId = jsonUser.getString(User.USER_CUSTOMER_ID);
 
 			Log.i(UserAsyncTask.class.getName(), "Current user ID = " + GlobalData.currentUser.userID);
 			return Result.SUCCESS;

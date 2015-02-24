@@ -26,6 +26,7 @@ public class User {
 	public String userToken;
 	public String userType = "1";
     public String userClientToken;
+    public String userCustomerId;
 	
 	public static final String USER_CODE = "userCode";
 	public static final String USER_COUPON = "userCoupon";
@@ -41,6 +42,7 @@ public class User {
 	public static final String USER_SPECIAL = "userSpecial";
 	public static final String USER_START = "userStart";
 	public static final String USER_STATUS = "userStatus";
+    public static final String USER_CUSTOMER_ID = "customerId";
 	
 	public static final String USER_TOKEN = "userToken";
 	public static final String USER_TYPE = "userType";	

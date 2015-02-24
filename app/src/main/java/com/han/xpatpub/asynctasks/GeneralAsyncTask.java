@@ -162,15 +162,13 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
             StringEntity se = new StringEntity(json);
 
             httpPost.setEntity(se);
-            httpPost.setHeader("Accept", "application/json");
-            httpPost.setHeader("Content-type", "application/json");
 
             response = httpClient.execute(httpPost);
 
             JSONObject jsonToken = new JSONObject(EntityUtils.toString(response.getEntity()));
-            JSONArray arrayResponse = jsonToken.getJSONArray("result");
+            String success = jsonToken.getString("success");
 
-            Log.d("NONCE_TAG",String.valueOf(arrayResponse.length()));
+            Log.d("NONCE_TAG",success);
             return Result.SUCCESS;
 
         } catch (Exception e) {
@@ -187,16 +185,20 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
             httpPost = MyGetClient.setHeaders(httpPost);
 
             JSONObject jsonObject = new JSONObject();
-            jsonObject.accumulate("userId", GlobalData.currentUser.userID);
+
+            if (GlobalData.currentUser.userCustomerId == null || GlobalData.currentUser.userCustomerId == "0" || Integer.valueOf(GlobalData.currentUser.userCustomerId)==0) {
+                Log.d("USERID_TAG", GlobalData.currentUser.userID);
+                jsonObject.accumulate("userId", GlobalData.currentUser.userID);
+            } else {
+                jsonObject.accumulate("customerId", GlobalData.currentUser.userCustomerId);
+                Log.d("TOKEN_TAG", GlobalData.currentUser.userCustomerId);
+            }
 //            jsonObject.accumulate("customerID", password);
 
             String json = jsonObject.toString();
             StringEntity se = new StringEntity(json);
 
             httpPost.setEntity(se);
-            httpPost.setHeader("Accept", "application/json");
-            httpPost.setHeader("Content-type", "application/json");
-            // TODO maybe third line is missing...?
 
             response = httpClient.execute(httpPost);
 

@@ -145,6 +145,8 @@ public class LoginActivity extends Activity
 												.toString();
 										GlobalData.currentUser.userToken = user
 												.getId();
+                                        GlobalData.currentUser.userCustomerId = user
+                                                .getProperty("customerID").toString();
 
 										try {
 											// URL image_value = new
