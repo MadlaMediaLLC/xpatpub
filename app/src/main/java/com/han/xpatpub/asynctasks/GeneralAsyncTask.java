@@ -12,6 +12,7 @@ import org.json.JSONObject;
 import android.app.Activity;
 import android.content.Context;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.han.xpatpub.activity.CouponActivity;
 import com.han.xpatpub.activity.LoginActivity;
@@ -22,6 +23,7 @@ import com.han.xpatpub.model.General;
 import com.han.xpatpub.model.GlobalData;
 import com.han.xpatpub.model.Pub;
 import com.han.xpatpub.model.URL;
+import com.han.xpatpub.model.User;
 import com.han.xpatpub.network.MessageWebService;
 import com.han.xpatpub.network.MyGetClient;
 import com.han.xpatpub.network.PatronWebService;
@@ -29,13 +31,14 @@ import com.han.xpatpub.network.Result;
 import com.han.xpatpub.utility.MyLogUtility;
 
 public class GeneralAsyncTask extends AbstractedAsyncTask {
-       
+       private String error;
+
 	public GeneralAsyncTask(Activity activity) {
 		super(activity);
 	}
 	
 	public GeneralAsyncTask(Context context) {
-		super(context);		
+		super(context);
 	}
 	
 	@Override
@@ -158,6 +161,7 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 
             JSONObject jsonObject = new JSONObject();
             jsonObject.accumulate("payment_method_nonce", nonce);
+            Log.d("sendNonce", jsonObject.toString());
             String json = jsonObject.toString();
             StringEntity se = new StringEntity(json);
 
@@ -166,10 +170,17 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
             response = httpClient.execute(httpPost);
 
             JSONObject jsonToken = new JSONObject(EntityUtils.toString(response.getEntity()));
-            String success = jsonToken.getString("success");
+            Log.d("sendNonceResponse", jsonToken.toString());
+            boolean success = jsonToken.getBoolean("success");
+            error = jsonToken.getJSONObject("_attributes").getString("message");
 
-            Log.d("NONCE_TAG",success);
-            return Result.SUCCESS;
+            Log.d("NONCE_TAG",String.valueOf(success));
+            if(success){
+
+                return Result.SUCCESS;
+            }else{
+                return Result.FAIL;
+            }
 
         } catch (Exception e) {
             MyLogUtility.error(GeneralAsyncTask.class, e, 0);
@@ -177,7 +188,6 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
         }
     }
     private int parseClientToken() {
-
         try {
             HttpPost httpPost = new HttpPost(URL.URL_GET_TOKEN);
             HttpClient httpClient = MyGetClient.getClient();
@@ -186,11 +196,15 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 
             JSONObject jsonObject = new JSONObject();
 
-            if (GlobalData.currentUser.userCustomerId == null || GlobalData.currentUser.userCustomerId == "0" || Integer.valueOf(GlobalData.currentUser.userCustomerId)==0) {
-                Log.d("USERID_TAG", GlobalData.currentUser.userID);
-                jsonObject.accumulate("userId", GlobalData.currentUser.userID);
+            if (GlobalData.currentUser.userCustomerId == null || GlobalData.currentUser.userCustomerId == "0") {
+                if (GlobalData.currentUser.userID != null) {
+                    Log.d("USERID_TAG", GlobalData.currentUser.userID);
+                    jsonObject.accumulate(User.USER_ID, GlobalData.currentUser.userID);
+                } else {
+                    throw new Exception();
+                }
             } else {
-                jsonObject.accumulate("customerId", GlobalData.currentUser.userCustomerId);
+                jsonObject.accumulate(User.USER_CUSTOMER_ID, GlobalData.currentUser.userCustomerId);
                 Log.d("TOKEN_TAG", GlobalData.currentUser.userCustomerId);
             }
 //            jsonObject.accumulate("customerID", password);
@@ -203,7 +217,7 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
             response = httpClient.execute(httpPost);
 
             JSONObject jsonToken = new JSONObject(EntityUtils.toString(response.getEntity()));
-            String strResponse = jsonToken.getString("clienttoken");
+            String strResponse = jsonToken.getString(User.USER_CLIENT_TOKEN_BRAINTREE);
             GlobalData.currentUser.userClientToken = strResponse;
             return Result.SUCCESS;
 
@@ -217,7 +231,14 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 	protected void onPostExecute(Integer result) {
 		super.onPostExecute(result);
 //		parent.startActivity(new Intent(parent, CompleteActivity.class));
-		
+
+        if (curAction.equals(Action.ACTION_SEND_NONCE)) {
+            if(nResult == Result.FAIL){
+                Toast.makeText(activity, "Payment failed, reason: " + error, Toast.LENGTH_LONG).show();
+            }else{
+                Toast.makeText(activity,"Payment successful", Toast.LENGTH_LONG).show();
+            }
+        }
 		if (curAction == Action.ACTION_SESSION) {
 			LoginActivity.successSession(parent);
 			

@@ -13,18 +13,146 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.han.xpatpub" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9f6922-4912-4e7e-85fb-ae5551bf9d6d" name="Default" comment="">
+    <list default="true" id="9e9f6922-4912-4e7e-85fb-ae5551bf9d6d" name="Default" comment="fix issue 108">
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\R.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_button_blue_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_button_blue_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_button_blue_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_button_grey_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_button_grey_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_button_grey_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_button_like_background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_button_like_background_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_button_like_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_button_like_icon_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_button_like_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_inverse_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_picker_magnifier.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_tooltip_black_background.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_tooltip_black_bottomnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_tooltip_black_topnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_tooltip_black_xout.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_tooltip_blue_background.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_tooltip_blue_bottomnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_tooltip_blue_topnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-hdpi-v4\com_facebook_tooltip_blue_xout.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-ldpi-v4\com_facebook_close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_button_blue_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_button_blue_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_button_blue_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_inverse_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_picker_magnifier.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_tooltip_black_background.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_tooltip_black_bottomnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_tooltip_black_topnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_tooltip_black_xout.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_tooltip_blue_background.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_tooltip_blue_bottomnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_tooltip_blue_topnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-mdpi-v4\com_facebook_tooltip_blue_xout.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_button_blue_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_button_blue_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_button_blue_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_button_grey_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_button_grey_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_button_grey_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_button_like_background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_button_like_background_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_button_like_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_button_like_icon_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_button_like_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_inverse_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_picker_magnifier.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_tooltip_black_background.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_tooltip_black_bottomnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_tooltip_black_topnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_tooltip_black_xout.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_background.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_bottomnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_topnub.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xhdpi-v4\com_facebook_tooltip_blue_xout.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xxhdpi-v4\com_facebook_button_like_background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xxhdpi-v4\com_facebook_button_like_background_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xxhdpi-v4\com_facebook_button_like_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xxhdpi-v4\com_facebook_button_like_icon_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable-xxhdpi-v4\com_facebook_button_like_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_blue.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_blue_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_blue_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_blue_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_check.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_check_off.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_check_on.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_grey_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_grey_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_grey_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_like.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_like_background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_like_background_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_like_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_like_icon_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_like_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_button_like_selected.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_inverse_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_list_divider.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_list_section_header_background.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_loginbutton_silver.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_picker_item_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_picker_list_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_picker_list_longpressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_picker_list_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_picker_list_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_picker_list_selector_background_transition.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_picker_list_selector_disabled.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_picker_top_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_place_default_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_profile_default_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_profile_picture_blank_portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_profile_picture_blank_square.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_top_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_top_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_friendpickerfragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_login_activity_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_picker_activity_circle_row.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_picker_checkbox.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_picker_image.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_picker_list_row.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_picker_list_section_header.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_picker_search_box.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_picker_title_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_picker_title_bar_stub.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_placepickerfragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_placepickerfragment_list_row.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_search_bar_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_tooltip_bubble.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\layout\com_facebook_usersettingsfragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\values-es\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\values-hdpi-v4\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\values-he\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\values-iw\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\values-ldpi-v4\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\values-mdpi-v4\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\values-xhdpi-v4\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.22.0\res\values\values.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/GeneralAsyncTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/GeneralAsyncTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/PubPatronActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/PubPatronActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/UserAsyncTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/UserAsyncTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xpatpub.iml" afterPath="$PROJECT_DIR$/xpatpub.iml" />
     </list>
     <ignored path="xpatpub.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,73 +175,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PubPatronActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PubPatronActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/PubPatronActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37563452" vertical-offset="2515" max-vertical-offset="5406">
-              <caret line="214" column="87" selection-start-line="214" selection-start-column="87" selection-end-line="214" selection-end-column="87" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3638" max-vertical-offset="6477">
+              <caret line="214" column="107" selection-start-line="214" selection-start-column="107" selection-end-line="214" selection-end-column="107" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="918">
-              <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Action.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="782">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneralAsyncTask.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GeneralAsyncTask.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/GeneralAsyncTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2555" max-vertical-offset="7548">
-              <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyGetClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/network/MyGetClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1190">
-              <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PubWebService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/network/PubWebService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="9299">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="URL.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/URL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="629">
-              <caret line="29" column="139" selection-start-line="29" selection-start-column="139" selection-end-line="29" selection-end-column="139" />
+            <state vertical-scroll-proportion="0.59270996" vertical-offset="2074" max-vertical-offset="7429">
+              <caret line="176" column="47" selection-start-line="176" selection-start-column="47" selection-end-line="176" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -122,9 +198,21 @@
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="1326">
-              <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1343">
+              <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocationUtility.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/app/LocationUtility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="7480" max-vertical-offset="8449">
+              <caret line="459" column="11" selection-start-line="459" selection-start-column="4" selection-end-line="459" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,8 +220,18 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3944">
-              <caret line="147" column="36" selection-start-line="147" selection-start-column="36" selection-end-line="148" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="3910">
+              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Action.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="782">
+              <caret line="25" column="78" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -142,8 +240,28 @@
       <file leaf-file-name="UserAsyncTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/UserAsyncTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2213" max-vertical-offset="8041">
-              <caret line="196" column="84" selection-start-line="196" selection-start-column="84" selection-end-line="196" selection-end-column="94" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="7939">
+              <caret line="198" column="40" selection-start-line="198" selection-start-column="40" selection-end-line="198" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlobalData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/GlobalData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2329">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URL.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/URL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="629">
+              <caret line="23" column="104" selection-start-line="23" selection-start-column="104" selection-end-line="23" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -155,6 +273,10 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\epigraph1\Desktop\test.jks" />
+    <option name="KEY_ALIAS" value="Ivor" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -668,12 +790,70 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.0.1/5e05aed7bd5c3941c03c22e853cae1c0f65cfdac/gradle-1.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.0.1/cd1ae9a4b885e8f07572d0f894f149533c082cc8/gradle-1.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.0.1/9a7030569d87e8c6b199fb2e68bb943ec46ff40d/builder-1.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.0.1/c8d3894bf14b2754a94b5091a4a4bd84ea0aa6fc/builder-1.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.0.1/9b2a0bebe6119fb27af42df2b637567c4e96eda2/lint-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.0.1/d014feecb7c9f4a4bba61b056ff9251c5279df24/lint-24.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.0.1/c2282b1198c706411569385bd225e9a31bda2e72/builder-model-1.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.0.1/e48e9a3058bb3a9813248cc79bd64e0c211faa5/builder-model-1.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.0.1/9d2b0b7a8e7ebb00052b06d0c3820342d3d364c7/builder-test-api-1.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.0.1/ad1ed006cd1432f84d6018cae5b6c289f8b9a592/builder-test-api-1.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.0.1/bdda3b0aec0c676657831166ee6bfbe31644d69e/sdklib-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.0.1/129cb79134719e5e271e9a5d02dda97e359767a7/sdklib-24.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.0.1/40535662b5ec9a4250a864b8b2d633d71b64e5fc/sdk-common-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.0.1/78443e0d8bc5fd15ac02a4207752c990969ea32c/sdk-common-24.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.0.1/1fed391348abd575a36293605223200792c799aa/common-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.0.1/96a3273bdb7dd2babc6b7469c43a6bedb87fb1bf/common-24.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.0.1/6c02fab1ee2f2313e552a4265a63acb2ebef5718/manifest-merger-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.0.1/42055d1aaf4b93dbfebfaea3a4fc2f33f76360df/manifest-merger-24.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.0.1/495510e714c10ada6c15157975e2918ab5f85266/ddmlib-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.0.1/96e5bff5e7352c0d4252a34d00e9fe4e1b9a9a60/ddmlib-24.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.0.1/fa840571862c96de5dec1cb72bf4c5f27695cdc4/lint-checks-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.0.1/5852425e83bbf45642eb4c105999f3873c85321a/lint-checks-24.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.1/proguard-base-5.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.1/proguard-base-5.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.0.1/ca19b38f87f2e17cd615c57a316992b8e59f7973/layoutlib-api-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.0.1/99e81aa1d57c4a2764e3159ecaeb2c3d87e2adb1/layoutlib-api-24.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.0.1/a858dca8c3d888de61ab5a8584a81397f9b679c2/dvlib-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.0.1/88956eb2faa213e7ecba20d42ea814ad23ccb25a/dvlib-24.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.0.1/9afff58b7c567dfafdfa81c553595a066f3d55b2/lint-api-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.0.1/dabee09e35f6947d639127efc5a17cba76901bd4/lint-api-24.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.2/lombok-ast-0.2.2-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.2/lombok-ast-0.2.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/4.0/asm-4.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/4.0/asm-4.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/4.0/asm-tree-4.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -685,12 +865,92 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.0.1/5e05aed7bd5c3941c03c22e853cae1c0f65cfdac/gradle-1.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.0.1/cd1ae9a4b885e8f07572d0f894f149533c082cc8/gradle-1.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.0.1/9a7030569d87e8c6b199fb2e68bb943ec46ff40d/builder-1.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.0.1/c8d3894bf14b2754a94b5091a4a4bd84ea0aa6fc/builder-1.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.0.1/9b2a0bebe6119fb27af42df2b637567c4e96eda2/lint-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.0.1/d014feecb7c9f4a4bba61b056ff9251c5279df24/lint-24.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.0.1/c2282b1198c706411569385bd225e9a31bda2e72/builder-model-1.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.0.1/e48e9a3058bb3a9813248cc79bd64e0c211faa5/builder-model-1.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.0.1/9d2b0b7a8e7ebb00052b06d0c3820342d3d364c7/builder-test-api-1.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.0.1/ad1ed006cd1432f84d6018cae5b6c289f8b9a592/builder-test-api-1.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.0.1/bdda3b0aec0c676657831166ee6bfbe31644d69e/sdklib-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.0.1/129cb79134719e5e271e9a5d02dda97e359767a7/sdklib-24.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.0.1/40535662b5ec9a4250a864b8b2d633d71b64e5fc/sdk-common-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.0.1/78443e0d8bc5fd15ac02a4207752c990969ea32c/sdk-common-24.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.0.1/1fed391348abd575a36293605223200792c799aa/common-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.0.1/96a3273bdb7dd2babc6b7469c43a6bedb87fb1bf/common-24.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.0.1/6c02fab1ee2f2313e552a4265a63acb2ebef5718/manifest-merger-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.0.1/42055d1aaf4b93dbfebfaea3a4fc2f33f76360df/manifest-merger-24.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.0.1/495510e714c10ada6c15157975e2918ab5f85266/ddmlib-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.0.1/96e5bff5e7352c0d4252a34d00e9fe4e1b9a9a60/ddmlib-24.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.0.1/fa840571862c96de5dec1cb72bf4c5f27695cdc4/lint-checks-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.0.1/5852425e83bbf45642eb4c105999f3873c85321a/lint-checks-24.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.1/proguard-base-5.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.1/proguard-base-5.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.0.1/ca19b38f87f2e17cd615c57a316992b8e59f7973/layoutlib-api-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.0.1/99e81aa1d57c4a2764e3159ecaeb2c3d87e2adb1/layoutlib-api-24.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.0.1/a858dca8c3d888de61ab5a8584a81397f9b679c2/dvlib-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.0.1/88956eb2faa213e7ecba20d42ea814ad23ccb25a/dvlib-24.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.0.1/9afff58b7c567dfafdfa81c553595a066f3d55b2/lint-api-24.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.0.1/dabee09e35f6947d639127efc5a17cba76901bd4/lint-api-24.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.2/lombok-ast-0.2.2-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.2/lombok-ast-0.2.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/4.0/asm-4.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/4.0/asm-4.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/4.0/asm-tree-4.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashlytics.sdk.android/crashlytics/2.2.1/3b60214eecc432d6e0cc186a6594d7e12145beb0/crashlytics-2.2.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/21.0.3/support-v4-21.0.3.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/21.0.3/appcompat-v7-21.0.3.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/android/gms/play-services/6.1.71/play-services-6.1.71.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/3.23.0/501aacb39470b9dda3ab56e4eb42fd358db75a9e/facebook-android-sdk-3.23.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/braintree/1.3.0/da4f6e19c19f200222475a401c49a843f6f2b171/braintree-1.3.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashlytics.sdk.android/answers/1.1.1/efc6f4d0c191f6693a5477336f081a64ee52ff8e/answers-1.1.1.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.fabric.sdk.android/fabric/1.1.1/81ea1b6f9c75aaba22eaf99b1d141f893f95a48c/fabric-1.1.1.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashlytics.sdk.android/beta/1.1.1/935f2e335aaea17df29fb1b001cdf3568faab332/beta-1.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/braintree-api/1.3.0/6da076afcc9ca4f256813b7bda902c82cfc30bae/braintree-api-1.3.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments/card-form/1.3.0/ae163cbeeb19bd0ebdd5624bb3348dda3afe1d95/card-form-1.3.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/data/1.3.0/52b685acaececfd0dc2ec4f191de8b0c05e73c1e/data-1.3.0.jar" />
+                            <option value="$MODULE_DIR$/libs/activation.jar" />
+                            <option value="$MODULE_DIR$/libs/additionnal.jar" />
+                            <option value="$MODULE_DIR$/libs/android-async-http-1.4.6.jar" />
+                            <option value="$MODULE_DIR$/libs/httpclient-osgi-4.2.jar" />
+                            <option value="$MODULE_DIR$/libs/mail.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.fabric.tools/gradle/1.15.2/c747479abb1e0873bfcd330d01abb4e4f5c05eca/gradle-1.15.2.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/app" />
@@ -777,13 +1037,15 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/Message.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/network/MessageWebService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/MessageActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/Action.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/URL.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/User.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/UserAsyncTask.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/GeneralAsyncTask.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/Action.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/PubPatronActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/User.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/GeneralAsyncTask.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/app/LocationUtility.java" />
       </list>
     </option>
   </component>
@@ -819,28 +1081,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpatpub" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpatpub" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -959,8 +1199,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xpatpub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xpatpub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xpatpub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xpatpub" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xpatpub" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -981,6 +1277,26 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="267" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="296" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="298" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="972" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="292" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="968" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="ExportApk.ApkPath" value="C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="debug" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test.jks" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1176,30 +1492,30 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2669633" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4385965" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2669633" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26585093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14794216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24200426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3003337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2669633" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1256" height="676" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1231,38 +1547,78 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/utility/Dialog00Utility.java</url>
+          <line>185</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/LoginActivity.java</url>
+          <line>192</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/LoginActivity.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/LoginActivity.java</url>
+          <line>162</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/LoginActivity.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/UserAsyncTask.java</url>
+          <line>172</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/UserAsyncTask.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/UserAsyncTask.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/UserAsyncTask.java</url>
+          <line>195</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/GeneralAsyncTask.java</url>
+          <line>236</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/GeneralAsyncTask.java</url>
+          <line>174</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="46" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4442837" vertical-offset="1689" max-vertical-offset="2380">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3846154" vertical-offset="1807" max-vertical-offset="2261">
-          <caret line="116" column="27" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="357">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52577317" vertical-offset="1530" max-vertical-offset="2278">
@@ -1307,13 +1663,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_coupon.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1887">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/SplashActivity.java">
@@ -1358,13 +1714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-21/android/os/AsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2847125" vertical-offset="9997" max-vertical-offset="10710">
-          <caret line="644" column="0" selection-start-line="644" selection-start-column="0" selection-end-line="644" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-21/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19495091" vertical-offset="1289" max-vertical-offset="12699">
@@ -1387,13 +1736,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pub_patron.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5066">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/InboxActivity.java">
@@ -1480,25 +1829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-21/com/android/internal/os/ZygoteInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3324468" vertical-offset="10823" max-vertical-offset="14790">
-          <caret line="693" column="0" selection-start-line="693" selection-start-column="0" selection-end-line="693" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/MessageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5397112" vertical-offset="1044" max-vertical-offset="1598">
           <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/GlobalData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2244">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1527,23 +1861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="918">
           <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="782">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="629">
-          <caret line="29" column="139" selection-start-line="29" selection-start-column="139" selection-end-line="29" selection-end-column="139" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1551,6 +1868,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.025145" vertical-offset="1683" max-vertical-offset="3570">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/network/MyGetClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="355" max-vertical-offset="901">
+          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="646">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="445">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/utility/Dialog00Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2253" max-vertical-offset="4267">
+          <caret line="185" column="37" selection-start-line="185" selection-start-column="37" selection-end-line="185" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1562,52 +1908,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/network/MyGetClient.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/URL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="355" max-vertical-offset="901">
-          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="23" column="104" selection-start-line="23" selection-start-column="104" selection-end-line="23" selection-end-column="104" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3264" max-vertical-offset="3944">
-          <caret line="147" column="36" selection-start-line="147" selection-start-column="36" selection-end-line="148" selection-end-column="86" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="25" column="78" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/User.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/GlobalData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="501" max-vertical-offset="1326">
-          <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2244">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/UserAsyncTask.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/PubPatronActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2213" max-vertical-offset="8041">
-          <caret line="196" column="84" selection-start-line="196" selection-start-column="84" selection-end-line="196" selection-end-column="94" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2737" max-vertical-offset="5406">
+          <caret line="214" column="107" selection-start-line="214" selection-start-column="107" selection-end-line="214" selection-end-column="107" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/GeneralAsyncTask.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-21/android/os/AsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2555" max-vertical-offset="7548">
-          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4152" max-vertical-offset="10710">
+          <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-21/com/android/internal/os/ZygoteInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327787" vertical-offset="12941" max-vertical-offset="14790">
+          <caret line="822" column="0" selection-start-line="822" selection-start-column="0" selection-end-line="822" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/app/LocationUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7480" max-vertical-offset="8449">
+          <caret line="459" column="11" selection-start-line="459" selection-start-column="4" selection-end-line="459" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/PubPatronActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37563452" vertical-offset="2515" max-vertical-offset="5406">
-          <caret line="214" column="87" selection-start-line="214" selection-start-column="87" selection-end-line="214" selection-end-column="87" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1343">
+          <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="3910">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/UserAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2499" max-vertical-offset="7939">
+          <caret line="198" column="40" selection-start-line="198" selection-start-column="40" selection-end-line="198" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/han/xpatpub/asynctasks/GeneralAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59270996" vertical-offset="2074" max-vertical-offset="7429">
+          <caret line="176" column="47" selection-start-line="176" selection-start-column="47" selection-end-line="176" selection-end-column="47" />
           <folding />
         </state>
       </provider>

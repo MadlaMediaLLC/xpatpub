@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<inset
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/home_button"
-    android:insetTop="@dimen/padding_activity_half"
-    android:insetBottom="@dimen/padding_activity_half"
-    android:insetLeft="@dimen/padding_activity_half"
-    android:insetRight="@dimen/padding_activity_half" />
-<!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/src/main/res/drawable/inset_home_button.xml -->

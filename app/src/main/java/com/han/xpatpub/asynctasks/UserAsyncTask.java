@@ -143,7 +143,7 @@ public class UserAsyncTask extends AbstractedAsyncTask {
 //			String url = URL_LOGIN + "&filter=username='" + strUserName + "'";
 			String uri = Uri.parse(URL.URL_LOGIN)
 	                .buildUpon()
-	                .appendQueryParameter("filter", "username='" + strUserName + "'")
+	                .appendQueryParameter("filter", User.USER_EMAIL + "='" + strUserName + "'")
 	                .build().toString();
 			Log.i(UserAsyncTask.class.getName(), "GET login Url = " + uri);
 			HttpGet httpGet = new HttpGet(uri);
@@ -151,10 +151,7 @@ public class UserAsyncTask extends AbstractedAsyncTask {
 			HttpResponse response = null;
  
 //            httpGet.setEntity(se);
-            httpGet.setHeader("Accept", "application/json");
-            httpGet.setHeader("Content-type", "application/json");
-            httpGet.setHeader("X-DreamFactory-Session-Token", GlobalData.currentUser.session_id);
-            
+            MyGetClient.setHeaders(httpGet);
 			response = httpClient.execute(httpGet);
 			
 			String strResponse = EntityUtils.toString(response.getEntity());
@@ -230,10 +227,7 @@ public class UserAsyncTask extends AbstractedAsyncTask {
             StringEntity se = new StringEntity(json);
  
             httpPost.setEntity(se);
-            httpPost.setHeader("Accept", "application/json");
-            httpPost.setHeader("Content-type", "application/json");
-            httpPost.setHeader("X-DreamFactory-Session-Token", GlobalData.currentUser.session_id);
-            
+            MyGetClient.setHeaders(httpPost);
 			response = httpClient.execute(httpPost);
 			
 			String strResponse = EntityUtils.toString(response.getEntity());
