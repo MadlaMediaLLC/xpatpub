@@ -1,10 +1,5 @@
 package com.han.xpatpub.activity;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -34,6 +29,11 @@ import com.han.xpatpub.model.Action;
 import com.han.xpatpub.model.GlobalData;
 import com.han.xpatpub.utility.MyToastUtility;
 import com.han.xpatpub.utility.ReleaseUtility;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class LoginActivity extends Activity 
 //		implements OnShow00LocationDialogListener
@@ -157,16 +157,16 @@ public class LoginActivity extends Activity
 											Log.i(LoginActivity.class.getName(), "username: " + user.getName());
 											Log.i(LoginActivity.class.getName(), "email: " + user.getProperty("email").toString());
 											Log.i(LoginActivity.class.getName(), "ID: " + user.getId());
-											
+
 										} catch (Exception e) {}
 
 										new UserAsyncTask(activity).execute(
 												Action.ACTION_LOGIN, GlobalData.currentUser.userEmail);
 									} else {
-										
+
 									}
 								}
-								
+
 					}).executeAsync();
 				}
 			}
