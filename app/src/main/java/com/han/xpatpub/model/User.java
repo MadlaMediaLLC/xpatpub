@@ -25,9 +25,13 @@ public class User {
 	public String userStatus;
 	public String userToken;
 	public String userType = "1";
+<<<<<<< HEAD
     public String userClientToken;
     public String userCustomerId;
 
+=======
+	
+>>>>>>> parent of 6bf67df... work on payment
 	public static final String USER_CODE = "userCode";
 	public static final String USER_COUPON = "userCoupon";
 	public static final String USER_CRITIC = "userCritic";

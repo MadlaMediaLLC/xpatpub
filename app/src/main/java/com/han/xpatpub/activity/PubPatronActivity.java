@@ -18,10 +18,21 @@ import com.han.xpatpub.asynctasks.UserAsyncTask;
 import com.han.xpatpub.model.Action;
 import com.han.xpatpub.model.GlobalData;
 import com.han.xpatpub.model.Message;
-import com.han.xpatpub.model.URL;
 import com.han.xpatpub.network.MessageWebService;
 import com.han.xpatpub.utility.DialogUtility;
 import com.han.xpatpub.utility.MessagingUtility;
+
+import com.loopj.android.http.AsyncHttpClient;
+import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
+
+import org.apache.http.Header;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
 
 public class PubPatronActivity extends AbstractedActivity {
 	
@@ -57,14 +68,9 @@ public class PubPatronActivity extends AbstractedActivity {
 		onReceive();
 		initValue();
 		initEvent();
-        findClientToken();
 	}
-
-    private void findClientToken() {
-        new GeneralAsyncTask(this).execute(Action.ACTION_GET_CLIENT_TOKEN);
-    }
-
-    @Override
+	
+	@Override
 	protected void onResume() {
 		super.onResume();
 
@@ -225,7 +231,7 @@ public class PubPatronActivity extends AbstractedActivity {
 			}
         });
 	}
-	
+
 //	@Override
 //	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 //		if (requestCode == REQUEST_CODE) {
@@ -252,7 +258,36 @@ public class PubPatronActivity extends AbstractedActivity {
 //	        "84kb2h884b7w2mk4",
 //	        "728c218ec1a224c01208782802d16283"
 //	    );
-
+                    }
+                }
+        );
+    }
+//	@Override
+//	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//		if (requestCode == REQUEST_CODE) {
+//			switch (resultCode) {
+//			case BraintreePaymentActivity.RESULT_OK:
+//				String paymentMethodNonce = data
+//						.getStringExtra(BraintreePaymentActivity.EXTRA_PAYMENT_METHOD_NONCE);
+//				break;
+//			case BraintreePaymentActivity.BRAINTREE_RESULT_DEVELOPER_ERROR:
+//			case BraintreePaymentActivity.BRAINTREE_RESULT_SERVER_ERROR:
+//			case BraintreePaymentActivity.BRAINTREE_RESULT_SERVER_UNAVAILABLE:
+//				// handle errors here, a throwable may be available in
+//				// data.getSerializableExtra(BraintreePaymentActivity.EXTRA_ERROR_MESSAGE)
+//				break;
+//			default:
+//				break;
+//			}
+//		}
+//	}
+//	
+//	private static BraintreeGateway gateway = new BraintreeGateway(
+//	        Environment.SANDBOX,
+//	        "9x4r57vrfb9k8v5k",
+//	        "84kb2h884b7w2mk4",
+//	        "728c218ec1a224c01208782802d16283"
+//	    );
 //	
 //	public void onBraintreeSubmit(View v) {
 //		Customization customization = new CustomizationBuilder()

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<!-- disabled state -->
+    <item android:drawable="@drawable/ales_nor" android:state_enabled="false"/>
+
+    <!-- enabled and pressed state -->
+    <item android:drawable="@drawable/ales_sel" android:state_enabled="true" android:state_pressed="true"/>
+
+    <!-- enabled and focused state -->
+    <item android:drawable="@drawable/ales_sel" android:state_enabled="true" android:state_focused="true"/>
+
+    <!-- enabled and selected state -->
+    <item android:drawable="@drawable/ales_sel" android:state_enabled="true" android:state_selected="true"/>
+    
+    <!-- enabled state -->
+    <item android:drawable="@drawable/ales_nor" android:state_enabled="true"/>
+</selector><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/menu_button_ales_icon.xml -->

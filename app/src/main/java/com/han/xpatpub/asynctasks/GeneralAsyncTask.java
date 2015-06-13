@@ -142,92 +142,12 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
                 nResult = MessageWebService.readMyMessage();
             }
 
-        } else if (curAction.equals(Action.ACTION_GET_CLIENT_TOKEN)) {
-            nResult = parseClientToken();
-        } else if (curAction.equals(Action.ACTION_SEND_NONCE)) {
-            String nonce = params[1];
-            nResult = sendNonce(nonce);
-            Log.d("NONCE", String.valueOf(nResult));
         }
 
         return nResult;
 	}
-    private int sendNonce(String nonce){
-        try {
-            HttpPost httpPost = new HttpPost(URL.URL_SEND_NONCE);
-            HttpClient httpClient = MyGetClient.getClient();
-            HttpResponse response = null;
-            httpPost = MyGetClient.setHeaders(httpPost);
 
-            JSONObject jsonObject = new JSONObject();
-            jsonObject.accumulate("payment_method_nonce", nonce);
-            Log.d("sendNonce", jsonObject.toString());
-            String json = jsonObject.toString();
-            StringEntity se = new StringEntity(json);
-
-            httpPost.setEntity(se);
-
-            response = httpClient.execute(httpPost);
-
-            JSONObject jsonToken = new JSONObject(EntityUtils.toString(response.getEntity()));
-            Log.d("sendNonceResponse", jsonToken.toString());
-            boolean success = jsonToken.getBoolean("success");
-            error = jsonToken.getJSONObject("_attributes").getString("message");
-
-            Log.d("NONCE_TAG",String.valueOf(success));
-            if(success){
-
-                return Result.SUCCESS;
-            }else{
-                return Result.FAIL;
-            }
-
-        } catch (Exception e) {
-            MyLogUtility.error(GeneralAsyncTask.class, e, 0);
-            return Result.FAIL;
-        }
-    }
-    private int parseClientToken() {
-        try {
-            HttpPost httpPost = new HttpPost(URL.URL_GET_TOKEN);
-            HttpClient httpClient = MyGetClient.getClient();
-            HttpResponse response = null;
-            httpPost = MyGetClient.setHeaders(httpPost);
-
-            JSONObject jsonObject = new JSONObject();
-
-            if (GlobalData.currentUser.userCustomerId == null || GlobalData.currentUser.userCustomerId == "0") {
-                if (GlobalData.currentUser.userID != null) {
-                    Log.d("USERID_TAG", GlobalData.currentUser.userID);
-                    jsonObject.accumulate(User.USER_ID, GlobalData.currentUser.userID);
-                } else {
-                    throw new Exception();
-                }
-            } else {
-                jsonObject.accumulate(User.USER_CUSTOMER_ID, GlobalData.currentUser.userCustomerId);
-                Log.d("TOKEN_TAG", GlobalData.currentUser.userCustomerId);
-            }
-//            jsonObject.accumulate("customerID", password);
-
-            String json = jsonObject.toString();
-            StringEntity se = new StringEntity(json);
-
-            httpPost.setEntity(se);
-
-            response = httpClient.execute(httpPost);
-
-            JSONObject jsonToken = new JSONObject(EntityUtils.toString(response.getEntity()));
-            String strResponse = jsonToken.getString(User.USER_CLIENT_TOKEN_BRAINTREE);
-            GlobalData.currentUser.userClientToken = strResponse;
-            return Result.SUCCESS;
-
-        } catch (Exception e) {
-            MyLogUtility.error(GeneralAsyncTask.class, e, 0);
-            return Result.FAIL;
-        }
-    }
-
-    @Override
+	@Override
 	protected void onPostExecute(Integer result) {
 		super.onPostExecute(result);
 //		parent.startActivity(new Intent(parent, CompleteActivity.class));
@@ -259,14 +179,10 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 				if (activity instanceof ResultActivity) {
 					((ResultActivity) activity).setUnreadMessageCount();
 				}
-
-                try {
-                    MessageActivity messageActivity = (MessageActivity) parent;
-                    messageActivity.successMarkMessage();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
+				
+				MessageActivity messageActivity = (MessageActivity) parent;
+				messageActivity.successMarkMessage();
+			}
 			
 		} else if (curAction.equals(Action.ACTION_CREATE_MESSAGE)) {
 			if (nResult == Result.SUCCESS) {
