@@ -12,8 +12,6 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.braintreepayments.api.dropin.BraintreePaymentActivity;
-import com.braintreepayments.api.dropin.Customization;
 import com.han.xpatpub.R;
 import com.han.xpatpub.asynctasks.GeneralAsyncTask;
 import com.han.xpatpub.asynctasks.UserAsyncTask;
@@ -24,22 +22,6 @@ import com.han.xpatpub.model.URL;
 import com.han.xpatpub.network.MessageWebService;
 import com.han.xpatpub.utility.DialogUtility;
 import com.han.xpatpub.utility.MessagingUtility;
-import com.loopj.android.http.AsyncHttpClient;
-import com.loopj.android.http.AsyncHttpResponseHandler;
-import com.loopj.android.http.RequestParams;
-import com.loopj.android.http.TextHttpResponseHandler;
-
-import org.apache.http.Header;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.UnsupportedEncodingException;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-
 
 public class PubPatronActivity extends AbstractedActivity {
 	
@@ -191,7 +173,7 @@ public class PubPatronActivity extends AbstractedActivity {
 			
 			@Override
 			public void onClick(View v) {					
-				/*if (dialog == null || !dialog.isShowing()) {
+				if (dialog == null || !dialog.isShowing()) {
 			    	dialog = new AlertDialog.Builder(PubPatronActivity.this)
 						.setTitle("Send Request to Upgrade Account")
 						.setMessage("We are accepting pub owners by request only during our Beta launch. Please click send and we will have someone contact you via email to setup your Pub Owner account!")
@@ -209,17 +191,7 @@ public class PubPatronActivity extends AbstractedActivity {
 							public void onClick(DialogInterface dialog, int which) {}
 							
 						}).show();
-		    	}*/
-                Intent intent = new Intent(PubPatronActivity.this, BraintreePaymentActivity.class);
-                intent.putExtra(BraintreePaymentActivity.EXTRA_CLIENT_TOKEN, GlobalData.currentUser.userClientToken);
-//                intent.putExtra(BraintreePaymentActivity.EXTRA_CLIENT_TOKEN,"eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJmMjFjZmEwMTkxZDhjZmE1NDgzNDhlZDg2NzE2NGI1OWUzNmU1ZTIzZWVjMjUxOGQwYmE1Y2JhMDkwNzEzNGI1fGNyZWF0ZWRfYXQ9MjAxNS0wMi0xN1QxMjoxNDo0Mi4yODk1OTk3NjgrMDAwMFx1MDAyNm1lcmNoYW50X2lkPWRjcHNweTJicndkanIzcW5cdTAwMjZwdWJsaWNfa2V5PTl3d3J6cWszdnIzdDRuYzgiLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvZGNwc3B5MmJyd2RqcjNxbi9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL2RjcHNweTJicndkanIzcW4vY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIn0sInRocmVlRFNlY3VyZUVuYWJsZWQiOnRydWUsInRocmVlRFNlY3VyZSI6eyJsb29rdXBVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvZGNwc3B5MmJyd2RqcjNxbi90aHJlZV9kX3NlY3VyZS9sb29rdXAifSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiQWNtZSBXaWRnZXRzLCBMdGQuIChTYW5kYm94KSIsImNsaWVudElkIjpudWxsLCJwcml2YWN5VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3BwIiwidXNlckFncmVlbWVudFVybCI6Imh0dHA6Ly9leGFtcGxlLmNvbS90b3MiLCJiYXNlVXJsIjoiaHR0cHM6Ly9hc3NldHMuYnJhaW50cmVlZ2F0ZXdheS5jb20iLCJhc3NldHNVcmwiOiJodHRwczovL2NoZWNrb3V0LnBheXBhbC5jb20iLCJkaXJlY3RCYXNlVXJsIjpudWxsLCJhbGxvd0h0dHAiOnRydWUsImVudmlyb25tZW50Tm9OZXR3b3JrIjp0cnVlLCJlbnZpcm9ubWVudCI6Im9mZmxpbmUiLCJ1bnZldHRlZE1lcmNoYW50IjpmYWxzZSwibWVyY2hhbnRBY2NvdW50SWQiOiJzdGNoMm5mZGZ3c3p5dHc1IiwiY3VycmVuY3lJc29Db2RlIjoiVVNEIn0sImNvaW5iYXNlRW5hYmxlZCI6dHJ1ZSwiY29pbmJhc2UiOnsiY2xpZW50SWQiOiJhZTBkMTk4MWI1MzcxNDgzZDZkODA2OTA5M2EwNjY5MjEyMGRiZTM0YWE0NTBlNzY0ZmY2NTI2ZWVmODhiMTlkIiwibWVyY2hhbnRBY2NvdW50IjoiZGV2cytzYW5kYm94LXNhbXBsZS1tZXJjaGFudEBicmFpbnRyZWVwYXltZW50cy5jb20iLCJzY29wZXMiOiJhdXRob3JpemF0aW9uczpicmFpbnRyZWUgdXNlciIsInJlZGlyZWN0VXJsIjoiaHR0cHM6Ly9hc3NldHMuYnJhaW50cmVlZ2F0ZXdheS5jb20vY29pbmJhc2Uvb2F1dGgvcmVkaXJlY3QtbGFuZGluZy5odG1sIn0sIm1lcmNoYW50SWQiOiJkY3BzcHkyYnJ3ZGpyM3FuIiwidmVubW8iOiJvZmZsaW5lIiwiYXBwbGVQYXkiOnsic3RhdHVzIjoibW9jayIsImNvdW50cnlDb2RlIjoiVVMiLCJjdXJyZW5jeUNvZGUiOiJVU0QiLCJtZXJjaGFudElkZW50aWZpZXIiOiJtZXJjaGFudC5jb20uYnJhaW50cmVlcGF5bWVudHMuZGV2LWRjb3BlbGFuZCIsInN1cHBvcnRlZE5ldHdvcmtzIjpbInZpc2EiLCJtYXN0ZXJjYXJkIiwiYW1leCJdfX0=");
-                Customization customization = new Customization.CustomizationBuilder()
-                        .primaryDescription("Pub Owner Account")
-                        .amount("$200")
-                        .submitButtonText("Upgrade")
-                        .build();
-                intent.putExtra(BraintreePaymentActivity.EXTRA_CUSTOMIZATION, customization);
-                startActivityForResult(intent, REQUEST_CODE);
+		    	}
 			}
 		});
 		
@@ -253,38 +225,33 @@ public class PubPatronActivity extends AbstractedActivity {
 			}
         });
 	}
-/*    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == REQUEST_CODE) {
-            Log.d("resultCode",String.valueOf(resultCode));
-            if (resultCode == BraintreePaymentActivity.RESULT_OK) {
-                String paymentMethodNonce = data.getStringExtra(BraintreePaymentActivity.EXTRA_PAYMENT_METHOD_NONCE);
-                new GeneralAsyncTask(this).execute(Action.ACTION_SEND_NONCE,paymentMethodNonce);
-            }
-        }
-    }*/
-
-	@Override
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        Log.d("ERROR", String.valueOf(data.getSerializableExtra(BraintreePaymentActivity.EXTRA_ERROR_MESSAGE)));
-		if (requestCode == REQUEST_CODE) {
-			switch (resultCode) {
-			case BraintreePaymentActivity.RESULT_OK:
-				String paymentMethodNonce = data.getStringExtra(BraintreePaymentActivity.EXTRA_PAYMENT_METHOD_NONCE);
-                new GeneralAsyncTask(this).execute(Action.ACTION_SEND_NONCE,paymentMethodNonce);
-				break;
-			case BraintreePaymentActivity.BRAINTREE_RESULT_DEVELOPER_ERROR:
-			case BraintreePaymentActivity.BRAINTREE_RESULT_SERVER_ERROR:
-                Log.d("ERROR", String.valueOf(data.getSerializableExtra(BraintreePaymentActivity.EXTRA_ERROR_MESSAGE)));
-			case BraintreePaymentActivity.BRAINTREE_RESULT_SERVER_UNAVAILABLE:
-				// handle errors here, a throwable may be available in
-
-				break;
-			default:
-				break;
-			}
-		}
-	}
+	
+//	@Override
+//	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//		if (requestCode == REQUEST_CODE) {
+//			switch (resultCode) {
+//			case BraintreePaymentActivity.RESULT_OK:
+//				String paymentMethodNonce = data
+//						.getStringExtra(BraintreePaymentActivity.EXTRA_PAYMENT_METHOD_NONCE);
+//				break;
+//			case BraintreePaymentActivity.BRAINTREE_RESULT_DEVELOPER_ERROR:
+//			case BraintreePaymentActivity.BRAINTREE_RESULT_SERVER_ERROR:
+//			case BraintreePaymentActivity.BRAINTREE_RESULT_SERVER_UNAVAILABLE:
+//				// handle errors here, a throwable may be available in
+//				// data.getSerializableExtra(BraintreePaymentActivity.EXTRA_ERROR_MESSAGE)
+//				break;
+//			default:
+//				break;
+//			}
+//		}
+//	}
+//	
+//	private static BraintreeGateway gateway = new BraintreeGateway(
+//	        Environment.SANDBOX,
+//	        "9x4r57vrfb9k8v5k",
+//	        "84kb2h884b7w2mk4",
+//	        "728c218ec1a224c01208782802d16283"
+//	    );
 
 //	
 //	public void onBraintreeSubmit(View v) {
