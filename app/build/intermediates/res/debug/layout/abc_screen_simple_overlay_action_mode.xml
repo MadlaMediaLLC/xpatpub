@@ -36,4 +36,8 @@ enabled.
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+<<<<<<< HEAD
 </android.support.v7.internal.widget.FitWindowsFrameLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple_overlay_action_mode.xml -->
+=======
+</android.support.v7.internal.widget.FitWindowsFrameLayout><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple_overlay_action_mode.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

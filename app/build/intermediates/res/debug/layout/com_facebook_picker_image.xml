@@ -22,4 +22,8 @@
     android:layout_height="50dip"
     android:layout_gravity="center_vertical"
     android:src="@drawable/com_facebook_profile_default_icon" />
+<<<<<<< HEAD
 <!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/layout/com_facebook_picker_image.xml --><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.22.0/res/layout/com_facebook_picker_image.xml -->
+=======
+<!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/layout/com_facebook_picker_image.xml --><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.0/res/layout/com_facebook_picker_image.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

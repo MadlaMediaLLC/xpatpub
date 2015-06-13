@@ -364,4 +364,8 @@
         </RelativeLayout>
     </LinearLayout>
 
+<<<<<<< HEAD
 </RelativeLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/activity_result.xml -->
+=======
+</RelativeLayout><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/layout/activity_result.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

@@ -7,4 +7,8 @@
         android:title="@string/action_settings"/>
 
 </menu>
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/menu/login.xml -->
+=======
+<!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/menu/login.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

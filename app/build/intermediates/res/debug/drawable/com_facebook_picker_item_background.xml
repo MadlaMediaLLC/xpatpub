@@ -24,4 +24,8 @@
     <item android:state_focused="true"                                                             android:drawable="@drawable/com_facebook_picker_list_focused" />
     <item                                                                                          android:drawable="@android:color/transparent" />
 </selector>
+<<<<<<< HEAD
 <!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/drawable/com_facebook_picker_item_background.xml --><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.22.0/res/drawable/com_facebook_picker_item_background.xml -->
+=======
+<!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/drawable/com_facebook_picker_item_background.xml --><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.0/res/drawable/com_facebook_picker_item_background.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

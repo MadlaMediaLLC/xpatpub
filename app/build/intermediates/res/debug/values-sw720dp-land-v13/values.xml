@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/values-sw720dp-land/dimens.xml -->
+=======
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/values-sw720dp-land/dimens.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works
     <eat-comment/>
     <dimen name="activity_horizontal_margin">128dp</dimen>
 </resources>

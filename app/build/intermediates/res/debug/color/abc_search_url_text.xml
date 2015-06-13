@@ -18,4 +18,8 @@
     <item android:state_pressed="true" android:color="@color/abc_search_url_text_pressed"/>
     <item android:state_selected="true" android:color="@color/abc_search_url_text_selected"/>
     <item android:color="@color/abc_search_url_text_normal"/>
+<<<<<<< HEAD
 </selector><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_search_url_text.xml -->
+=======
+</selector><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_search_url_text.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

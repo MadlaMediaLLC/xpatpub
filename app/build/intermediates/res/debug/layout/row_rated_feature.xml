@@ -29,4 +29,8 @@
         android:layout_toRightOf="@+id/tvFeaturePercentage"
         android:text="Meet Market" />
 
+<<<<<<< HEAD
 </RelativeLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/row_rated_feature.xml -->
+=======
+</RelativeLayout><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/layout/row_rated_feature.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

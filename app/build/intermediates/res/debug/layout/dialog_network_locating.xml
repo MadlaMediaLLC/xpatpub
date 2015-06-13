@@ -46,4 +46,8 @@
         </LinearLayout>
     </LinearLayout>
 
+<<<<<<< HEAD
 </ScrollView><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/dialog_network_locating.xml -->
+=======
+</ScrollView><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/layout/dialog_network_locating.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

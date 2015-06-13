@@ -80,4 +80,8 @@
         android:textSize="20sp"
         android:visibility="gone" />
     
+<<<<<<< HEAD
 </RelativeLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/activity_login.xml -->
+=======
+</RelativeLayout><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/layout/activity_login.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

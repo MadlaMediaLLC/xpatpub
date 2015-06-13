@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.22.0/res/values-ldpi-v4/values.xml -->
+=======
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.0/res/values-ldpi-v4/values.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works
     <eat-comment/>
     <dimen name="com_facebook_picker_divider_width">1px</dimen>
 </resources>

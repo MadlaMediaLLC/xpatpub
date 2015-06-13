@@ -15,4 +15,8 @@
     
     <!-- enabled state -->
     <item android:drawable="@drawable/meat_market_nor" android:state_enabled="true"/>
+<<<<<<< HEAD
 </selector><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/menuitem_meat_market_icon.xml -->
+=======
+</selector><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/menuitem_meat_market_icon.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

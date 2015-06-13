@@ -49,4 +49,8 @@
 
     </LinearLayout>
 
+<<<<<<< HEAD
 </LinearLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_list_item.xml -->
+=======
+</LinearLayout><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_list_item.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

@@ -23,4 +23,8 @@
         />
 
 </selector>
+<<<<<<< HEAD
 <!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/drawable/com_facebook_button_like.xml --><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.22.0/res/drawable/com_facebook_button_like.xml -->
+=======
+<!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/drawable/com_facebook_button_like.xml --><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.0/res/drawable/com_facebook_button_like.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

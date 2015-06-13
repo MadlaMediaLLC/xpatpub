@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\classes\debug
 C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-8ab090b0ff4b1b5dea42d265622172a784e0c051.jar
 C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-fb6c3512d676d8fed0cd5d39a78f388f227fa4b2.jar
@@ -21,3 +22,28 @@ C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debu
 C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\braintree-api-1.3.0-2f969e9abe2b9ebd18e4aa026dc9fc5aee1445d0.jar
 C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\httpclient-osgi-4.2-ab26b1f59cbb6fbc974c25db2b7f5e306eb83d2d.jar
 C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-0736d4a5fe63760b5e1b7595b58a1d363dac25be.jar
+=======
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\classes\debug
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-80f39f5830ac554dd064246488d3ba689c7da6f7.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-b043a32fe086453d0a47e2754dd8adf8c66b9de4.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-a3b1913f0b8fe8d6cd8426dc1a4774062cd4ff90.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-797c3e60f852cf5551ce1fe5e253d507e9b0841c.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-ee76c9ea5f5730f209228091b04550fed5a4e548.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-34d9b78366c2197d44a74b3e3eb32f39b0cd4c08.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\data-1.3.0-0bac23fd29d492b9f86324755ab511230fd33d67.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\activation-f351a1bf1df687220ce9f0ebc13995904be155b7.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\additionnal-45c7c47fd824d4f2d71fed841d998f41b9894873.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-075b56eaf792e05da974367d1d37919d261eac5e.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-49054aa4da0d0d56088333fe31aebf0a3b01daab.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-66eb9f967df17efc072234860dc7f4f7a52b2fb4.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-b838d3efae6bae31c0726892fa7ebfe200253c90.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\gson-2.3.1-c44459a01dcb87550f2e273119a049b7c6c94697.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-38b6b2886b382cbec223f913828eb6b0c6dac1a3.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-5ed9d34fa31179fed873e6d7ccf31ab4152842fa.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\mail-5088795e65121ed5a138c11227754817c4901e95.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-40f2e6706691789193550f035cfef1aed83bc86c.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-0e69cdb69e7a4ad28a63a2931de3c757bb4d0499.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\braintree-api-1.3.0-a91af2a806d790b3c53c2a970cce2d2845dc86a3.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\httpclient-osgi-4.2-b2c602f62908c521e95db16f53a7107812f93622.jar
+C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-b11b920798f7e2d0996fd453bebc30afd1bdc236.jar
+>>>>>>> parent of 79ad6f9... getClientToken works

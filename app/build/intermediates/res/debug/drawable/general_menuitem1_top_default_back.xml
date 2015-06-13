@@ -4,4 +4,8 @@
       	android:topLeftRadius="10dp"
       	android:topRightRadius="10dp" />
 	<solid android:color="#fcc300" />
+<<<<<<< HEAD
 </shape><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/general_menuitem1_top_default_back.xml -->
+=======
+</shape><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/general_menuitem1_top_default_back.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

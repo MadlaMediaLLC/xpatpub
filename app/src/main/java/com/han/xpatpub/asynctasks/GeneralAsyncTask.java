@@ -202,10 +202,10 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 	private Integer session(String email, String password) {
 		
 		try {
-		            HttpPost httpPost = new HttpPost(URL.URL_SESSION);
-            HttpClient httpClient = MyGetClient.getClient();
-            HttpResponse response = null;
-
+			HttpPost httpPost = new HttpPost(URL.URL_SESSION);
+			HttpClient httpClient = MyGetClient.getClient();
+			HttpResponse response = null;
+			 
             JSONObject jsonObject = new JSONObject();
             jsonObject.accumulate("email", email);
             jsonObject.accumulate("password", password);

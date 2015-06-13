@@ -15,4 +15,8 @@
    
     <!-- enabled state -->
     <item android:drawable="@drawable/general_menuitem2_top_default_back" android:state_enabled="true"/>
+<<<<<<< HEAD
 </selector><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/general_menuitem2_top_back.xml -->
+=======
+</selector><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/general_menuitem2_top_back.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

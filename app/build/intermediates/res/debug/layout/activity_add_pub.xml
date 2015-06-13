@@ -109,4 +109,8 @@
 
     </RelativeLayout>
 
+<<<<<<< HEAD
 </RelativeLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/activity_add_pub.xml -->
+=======
+</RelativeLayout><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/layout/activity_add_pub.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

@@ -229,4 +229,8 @@
         android:orientation="vertical" >
     </LinearLayout>
 
+<<<<<<< HEAD
 </RelativeLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/menu_tunes_for_review.xml -->
+=======
+</RelativeLayout><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/layout/menu_tunes_for_review.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

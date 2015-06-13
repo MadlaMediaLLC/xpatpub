@@ -7,4 +7,8 @@
        	android:bottomLeftRadius="0dp"
      	android:topLeftRadius="0dp"
      	android:topRightRadius="@dimen/radius_double"/>
+<<<<<<< HEAD
 </shape><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/round_rect_shape3.xml -->
+=======
+</shape><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/round_rect_shape3.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

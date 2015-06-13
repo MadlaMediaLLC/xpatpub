@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments/card-form/1.3.0/res/values-w500dp-v13/values.xml -->
     <eat-comment/>
     <dimen name="bt_full_width">@dimen/bt_landscape_max_width</dimen>
     <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w500dp/values.xml -->
+=======
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.braintreepayments/card-form/1.3.0/res/values-w500dp-v13/values.xml -->
+    <eat-comment/>
+    <dimen name="bt_full_width">@dimen/bt_landscape_max_width</dimen>
+    <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w500dp/values.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works
     <eat-comment/>
     <integer name="abc_max_action_buttons">4</integer>
 </resources>

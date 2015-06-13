@@ -139,4 +139,8 @@
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_view.xml -->
+=======
+<!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_view.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works

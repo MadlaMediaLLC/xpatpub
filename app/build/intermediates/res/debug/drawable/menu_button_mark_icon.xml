@@ -9,4 +9,8 @@
 
     <!-- enabled and selected state -->
     <item android:drawable="@drawable/up_arrow" android:state_enabled="true" android:state_selected="true"/>
+<<<<<<< HEAD
 </selector><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/menu_button_mark_icon.xml -->
+=======
+</selector><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/menu_button_mark_icon.xml -->
+>>>>>>> parent of 79ad6f9... getClientToken works
