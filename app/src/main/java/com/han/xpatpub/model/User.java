@@ -41,7 +41,6 @@ public class User {
 	public static final String USER_SPECIAL = "userSpecial";
 	public static final String USER_START = "userStart";
 	public static final String USER_STATUS = "userStatus";
-    public static final String USER_CUSTOMER_ID = "customerId";
 	
 	public static final String USER_TOKEN = "userToken";
 	public static final String USER_TYPE = "userType";	

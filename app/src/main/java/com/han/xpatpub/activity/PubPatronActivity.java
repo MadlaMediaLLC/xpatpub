@@ -197,7 +197,6 @@ public class PubPatronActivity extends AbstractedActivity {
 							public void onClick(DialogInterface dialog, int which) {}
 							
 						}).show();
-		    	}
 			}
 		});
 		
