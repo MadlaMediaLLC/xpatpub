@@ -3,7 +3,11 @@
      <corners android:radius="10dp" />
      <solid android:color="#fcc300" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 </shape><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/feature_menu_sel_backgroud.xml -->
 =======
 </shape><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/feature_menu_sel_backgroud.xml -->
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+</shape><!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/src/main/res/drawable/feature_menu_sel_backgroud.xml -->
+>>>>>>> parent of 2e3b277... Payment updated

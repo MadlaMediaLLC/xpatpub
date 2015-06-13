@@ -17,7 +17,11 @@
     <item android:drawable="@color/general_menuitem3_back_default_color" android:state_enabled="true"/>
 </selector>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/general_menuitem3_middle_back.xml -->
 =======
 <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/general_menuitem3_middle_back.xml -->
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+<!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/src/main/res/drawable/general_menuitem3_middle_back.xml -->
+>>>>>>> parent of 2e3b277... Payment updated

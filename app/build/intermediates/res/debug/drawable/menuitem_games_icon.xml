@@ -17,7 +17,11 @@
     <item android:drawable="@drawable/games_on_tv_nor" android:state_enabled="true"/>
 </selector>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/menuitem_games_icon.xml -->
 =======
 <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/menuitem_games_icon.xml -->
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+<!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/src/main/res/drawable/menuitem_games_icon.xml -->
+>>>>>>> parent of 2e3b277... Payment updated

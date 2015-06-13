@@ -47,7 +47,11 @@
             android:layout_marginRight="10dip"/>
 </LinearLayout>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/layout/com_facebook_picker_list_row.xml --><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.22.0/res/layout/com_facebook_picker_list_row.xml -->
 =======
 <!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/layout/com_facebook_picker_list_row.xml --><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.0/res/layout/com_facebook_picker_list_row.xml -->
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+<!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/layout/com_facebook_picker_list_row.xml --><!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.0/res/layout/com_facebook_picker_list_row.xml -->
+>>>>>>> parent of 2e3b277... Payment updated

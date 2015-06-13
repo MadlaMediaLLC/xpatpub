@@ -12,7 +12,6 @@ import org.json.JSONObject;
 import android.app.Activity;
 import android.content.Context;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.han.xpatpub.activity.CouponActivity;
 import com.han.xpatpub.activity.LoginActivity;
@@ -23,7 +22,6 @@ import com.han.xpatpub.model.General;
 import com.han.xpatpub.model.GlobalData;
 import com.han.xpatpub.model.Pub;
 import com.han.xpatpub.model.URL;
-import com.han.xpatpub.model.User;
 import com.han.xpatpub.network.MessageWebService;
 import com.han.xpatpub.network.MyGetClient;
 import com.han.xpatpub.network.PatronWebService;
@@ -31,14 +29,13 @@ import com.han.xpatpub.network.Result;
 import com.han.xpatpub.utility.MyLogUtility;
 
 public class GeneralAsyncTask extends AbstractedAsyncTask {
-       private String error;
-
+       
 	public GeneralAsyncTask(Activity activity) {
 		super(activity);
 	}
 	
 	public GeneralAsyncTask(Context context) {
-		super(context);
+		super(context);		
 	}
 	
 	@Override
@@ -151,14 +148,7 @@ public class GeneralAsyncTask extends AbstractedAsyncTask {
 	protected void onPostExecute(Integer result) {
 		super.onPostExecute(result);
 //		parent.startActivity(new Intent(parent, CompleteActivity.class));
-
-        if (curAction.equals(Action.ACTION_SEND_NONCE)) {
-            if(nResult == Result.FAIL){
-                Toast.makeText(activity, "Payment failed, reason: " + error, Toast.LENGTH_LONG).show();
-            }else{
-                Toast.makeText(activity,"Payment successful", Toast.LENGTH_LONG).show();
-            }
-        }
+		
 		if (curAction == Action.ACTION_SESSION) {
 			LoginActivity.successSession(parent);
 			

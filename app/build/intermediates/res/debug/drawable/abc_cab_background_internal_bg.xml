@@ -21,7 +21,11 @@
        android:shape="rectangle">
     <solid android:color="@android:color/white" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 </shape><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_internal_bg.xml -->
 =======
 </shape><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_internal_bg.xml -->
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+</shape><!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_internal_bg.xml -->
+>>>>>>> parent of 2e3b277... Payment updated

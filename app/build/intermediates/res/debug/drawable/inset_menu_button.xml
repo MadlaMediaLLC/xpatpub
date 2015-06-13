@@ -7,7 +7,11 @@
     android:insetLeft="@dimen/padding_activity_half"
     android:insetRight="@dimen/padding_activity_half" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/inset_menu_button.xml -->
 =======
 <!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/inset_menu_button.xml -->
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+<!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/src/main/res/drawable/inset_menu_button.xml -->
+>>>>>>> parent of 2e3b277... Payment updated

@@ -145,6 +145,8 @@ public class LoginActivity extends Activity
 												.toString();
 										GlobalData.currentUser.userToken = user
 												.getId();
+                                        GlobalData.currentUser.userCustomerId = user
+                                                .getProperty("customerID").toString();
 
 										try {
 											// URL image_value = new
@@ -161,7 +163,7 @@ public class LoginActivity extends Activity
 										} catch (Exception e) {}
 
 										new UserAsyncTask(activity).execute(
-												Action.ACTION_LOGIN, GlobalData.currentUser.userEmail);
+												Action.ACTION_LOGIN, user.getName());
 									} else {
 
 									}
@@ -201,7 +203,7 @@ public class LoginActivity extends Activity
 				@Override
 				public void onClick(View v) {
 					new UserAsyncTask(LoginActivity.this).execute(
-							Action.ACTION_LOGIN, "shannonallen291@gmail.com");
+							Action.ACTION_LOGIN, "Shannon Allen");
 				}						
 	        });
 			
@@ -209,7 +211,7 @@ public class LoginActivity extends Activity
 				@Override
 				public void onClick(View v) {
 					new UserAsyncTask(LoginActivity.this).execute(
-							Action.ACTION_LOGIN, "expatpub@gmail.com");
+							Action.ACTION_LOGIN, "Shannon Born");
 				}						
 	        });
 		}
@@ -235,7 +237,7 @@ public class LoginActivity extends Activity
 	}
 	
 	public static void reLogin(Context context) {
-		new UserAsyncTask(context).execute(Action.ACTION_LOGIN, GlobalData.currentUser.userEmail);
+		new UserAsyncTask(context).execute(Action.ACTION_LOGIN, GlobalData.currentUser.userName);
 	}
 
 	public static void successSession(Context context) {

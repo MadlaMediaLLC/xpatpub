@@ -21,7 +21,11 @@
               android:layout_height="fill_parent"
               style="?attr/actionBarTabBarStyle">
 <<<<<<< HEAD
+<<<<<<< HEAD
 </LinearLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_view_list_nav_layout.xml -->
 =======
 </LinearLayout><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_view_list_nav_layout.xml -->
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+</LinearLayout><!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_view_list_nav_layout.xml -->
+>>>>>>> parent of 2e3b277... Payment updated

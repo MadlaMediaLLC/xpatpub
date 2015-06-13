@@ -18,7 +18,11 @@
        android:interpolator="@android:anim/decelerate_interpolator"
        android:fromAlpha="0.0" android:toAlpha="1.0"
 <<<<<<< HEAD
+<<<<<<< HEAD
        android:duration="@android:integer/config_mediumAnimTime" /><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_fade_in.xml -->
 =======
        android:duration="@android:integer/config_mediumAnimTime" /><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_fade_in.xml -->
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+       android:duration="@android:integer/config_mediumAnimTime" /><!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_fade_in.xml -->
+>>>>>>> parent of 2e3b277... Payment updated

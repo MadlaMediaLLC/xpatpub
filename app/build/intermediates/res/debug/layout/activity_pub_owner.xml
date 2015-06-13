@@ -188,7 +188,11 @@
         android:textSize="15sp" />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 </RelativeLayout><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/layout/activity_pub_owner.xml -->
 =======
 </RelativeLayout><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/layout/activity_pub_owner.xml -->
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+</RelativeLayout><!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/src/main/res/layout/activity_pub_owner.xml -->
+>>>>>>> parent of 2e3b277... Payment updated

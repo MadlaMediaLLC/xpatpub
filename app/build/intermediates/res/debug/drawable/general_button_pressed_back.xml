@@ -3,7 +3,11 @@
      <corners android:radius="10dp" />
      <solid android:color="@color/general_button_back_pressed_color" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 </shape><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/general_button_pressed_back.xml -->
 =======
 </shape><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/general_button_pressed_back.xml -->
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+</shape><!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/src/main/res/drawable/general_button_pressed_back.xml -->
+>>>>>>> parent of 2e3b277... Payment updated

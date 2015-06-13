@@ -3,7 +3,11 @@
     android:shape="oval">
     <solid android:color="#f5c00b"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </shape><!-- From: file:/C:/Users/kristijandraca/workspace/xpatpub/app/src/main/res/drawable/circle_shape1.xml -->
 =======
 </shape><!-- From: file:/C:/Users/epigraph2/workspace/xpatpub/app/src/main/res/drawable/circle_shape1.xml -->
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+</shape><!-- From: file:/C:/Users/epigraph1/AndroidStudioWorkspace/xpatpub/app/src/main/res/drawable/circle_shape1.xml -->
+>>>>>>> parent of 2e3b277... Payment updated

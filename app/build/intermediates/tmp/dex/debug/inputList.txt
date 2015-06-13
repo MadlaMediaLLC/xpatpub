@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\classes\debug
 C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-8ab090b0ff4b1b5dea42d265622172a784e0c051.jar
 C:\Users\kristijandraca\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-fb6c3512d676d8fed0cd5d39a78f388f227fa4b2.jar
@@ -47,3 +48,28 @@ C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\bra
 C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\httpclient-osgi-4.2-b2c602f62908c521e95db16f53a7107812f93622.jar
 C:\Users\epigraph2\workspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-b11b920798f7e2d0996fd453bebc30afd1bdc236.jar
 >>>>>>> parent of 79ad6f9... getClientToken works
+=======
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\classes\debug
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-0fdb30d71b9f76e0b375b95a7e506a49112b513d.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-17f613773dcf0998d70ae5dd5ff8fa7773d04646.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-3b69607b93aafa929d853adb38bbba16b9792073.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-db028e05c605e52205f4b2959cde05fd17602e17.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-e53d8b8e547b9064e5fc3d08b381c497368d6532.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-f6fc0bfc897d8dddd96bb295c161ff592cea6099.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\data-1.3.0-5b2cd2dfa97fdb12313405d3365e1dd15025ba27.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\activation-f2d07b87be9f9d1d641d334e21f84f357af38bf8.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\additionnal-c83e7a854c4754c2c81d040276e0a151635ee061.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-71d4bedebb37ec9bb4ecdb56ab24fc71b9091f99.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-ebdb982fee4f0331372a2bc75dae97f28c68b943.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-2a38d5444dcac8021d7b8708556de9f3cad3073f.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-28e2807a57044d6388e67bd35171640b1d60185c.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\gson-2.3.1-8dcfd52c475ca66da90bd5045aa0e83df16e5108.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-a16f247ceb47e03f20a213dc6e728e0489e87455.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-36c64ce86e2f9ef792f5731042e2bd6db25b001e.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\mail-f190fb306ae033abfec185cc81991e941949a926.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-1543e22a3d92a9b8eb789ca983f71f3898ea1c3f.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-ddce8e2cab80406828ce7d2e5f309e587bde0d39.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\braintree-api-1.3.0-6d76a7a35d1a4c08619dfc2cc4831cb0422707e0.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\httpclient-osgi-4.2-9e68db48ca16ccc123d37a61f291b7ebd07cf56e.jar
+C:\Users\epigraph1\AndroidStudioWorkspace\xpatpub\app\build\intermediates\pre-dexed\debug\classes-bb50c7da738bd17852ccbbed5eabf830ea8d78c9.jar
+>>>>>>> parent of 2e3b277... Payment updated
